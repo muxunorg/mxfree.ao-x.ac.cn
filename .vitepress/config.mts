@@ -20,6 +20,7 @@ export default defineConfig({
       head: [
         ['meta', { name: 'baidu-site-verification', content: 'codeva-fZt7LzgPow' }],
         ['meta', { name: 'sogou_site_verification', content: 'JhD338Vd3M' }],
+        ['meta', { name: '360-site-verification', content: 'b6dc96b59271984522ec7fb6ec6de8b6' }],
         ['meta', { name: 'keywords', content: '慕讯公益加速器,免费游戏加速器,免费加速器,加速器,游戏加速,网游加速器,游戏加速,英雄联盟,Steam,战网,Epic,Apex英雄,CSGO,PUBG,绝地求生,暗黑破坏神,英雄联盟,Valorant,GTA 5,永劫无间,电竞加速器,加速器福利,加速器口令码,免费加速器,公益加速器' }],
         ['link', { rel: 'icon', href: '/img/logo.avif' }],
         ['script', {type : 'text/javascript', src: '/js/bd1.js', async: '' }],
