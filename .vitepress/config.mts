@@ -18,7 +18,7 @@ export default defineConfig({
       lang: 'zh-hans',
       description: "慕讯公益加速器，采用开源，可以说是安全性拉满，专门针对网络游戏延迟优化，一键因网络问题造成的游戏卡顿、延迟、掉线、加载缓慢等一系列问题，完全免费无套路，游戏体验提升10000%，永久免费加速，为你提供更好的游戏操作体验，为游戏玩家解决延迟、掉线、卡机，高ping等网络问题，有效提升网络稳定性，极致降低延迟。",
       head: [
-        ['meta', { name: 'baidu-site-verification', content: 'codeva-0fsXXyUxVw' }],
+        ['meta', { name: 'baidu-site-verification', content: 'codeva-fZt7LzgPow' }],
         ['meta', { name: 'keywords', content: '慕讯公益加速器,免费游戏加速器,免费加速器,加速器,游戏加速,网游加速器,游戏加速,英雄联盟,Steam,战网,Epic,Apex英雄,CSGO,PUBG,绝地求生,暗黑破坏神,英雄联盟,Valorant,GTA 5,永劫无间,电竞加速器,加速器福利,加速器口令码,免费加速器,公益加速器' }],
         ['link', { rel: 'icon', href: '/img/logo.avif' }],
         ['script', {type : 'text/javascript', src: '/js/bd1.js', async: '' }],
