@@ -9,7 +9,7 @@ export default defineConfig({
     },
   },
   sitemap: {
-    hostname: 'https://mxfree.ao-x.ac.cn',
+    hostname: 'https://mxfree.ao-x.ac.cn/',
   },
   locales: {
     root: {
