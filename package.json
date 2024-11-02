@@ -3,7 +3,7 @@
     "vitepress": "^1.2.3"
   },
   "scripts": {
-    "docs:start": "npm install && vitepress dev --host 0.0.0.0",
+    "docs:start": "cnpm install && vitepress dev --host 0.0.0.0",
     "docs:dev": "vitepress dev --host 0.0.0.0",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview",
