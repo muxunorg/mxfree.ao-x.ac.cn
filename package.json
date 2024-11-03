@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "decap-cms-app": "^3.3.3",
     "vitepress": "^1.4.3"
   },
   "scripts": {

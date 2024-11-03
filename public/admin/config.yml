@@ -1,0 +1,21 @@
+backend:
+  name: github
+  repo: muxunorg/mxfree.ao-x.ac.cn
+  branch: main # Branch to update (optional; defaults to master)
+  site_domain: https://mxfree.ao-x.ac.cn
+  base_url: https://mxfree.ao-x.ac.cn
+  auth_endpoint: /api/auth
+media_folder: public/img
+public_folder: /img
+collections:
+  - name: 'guide'
+    label: 'Guide'
+    folder: 'guide'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
