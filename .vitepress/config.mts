@@ -1,13 +1,96 @@
 import { defineConfig } from 'vitepress'
 
+import { devDependencies } from '../package.json'
+
+import { AnnouncementPlugin } from 'vitepress-plugin-announcement'
+
+import { groupIconMdPlugin, groupIconVitePlugin, localIconLoader } from 'vitepress-plugin-group-icons'
+
 // https://vitepress.dev/reference/site-config
 
 export default defineConfig({
+  // markdown配置
   markdown: {
+    // 行号显示
+    lineNumbers: true,
+
+    // 使用 `!!code` 防止转换
+    codeTransformers: [
+      {
+        postprocess(code) {
+          return code.replace(/\[\!\!code/g, '[!code')
+        }
+      }
+    ],
+
+    // 开启图片懒加载
     image: {
-      lazyLoading: true,
+      lazyLoading: true
     },
+
+    // 组件插入h1标题下
+    config: (md) => [
+      md.renderer.rules.heading_close = (tokens, idx, options, env, slf) => {
+          let htmlResult = slf.renderToken(tokens, idx, options);
+          if (tokens[idx].tag === 'h1') htmlResult += `<ArticleMetadata />`; 
+          return htmlResult;
+      },
+
+
+      md.use(groupIconMdPlugin) // 代码组图标
+
+    ],
+
   },
+  vite: { 
+    plugins: [
+      AnnouncementPlugin({
+        title: '公告',
+        body: [
+          { type: 'text', content: '👇公众号👇 --- 👇 赞赏 👇' },
+          {
+            type: 'image',
+            src: '/img/gzh.jpg',
+            style: 'display: inline-block;width:46%;padding-right:6px'
+          },
+          {
+            type: 'image',
+            src: '/img/zs.png',
+            style: 'display: inline-block;width:46%;padding-left:6px'
+          }
+        ],
+        footer: [
+          {
+            type: 'text',
+            content: '翻译有错误？ 点击下面帮助翻译'
+          },
+          {
+            type: 'button',
+            content: '捐助',
+            link: './donate'
+          },
+          {
+            type: 'button',
+            content: '帮助翻译',
+            link: 'https://zh.crowdin.com/project/mxfree',
+            props: {
+              type: 'success'
+            }
+          },
+        ],
+      }),
+      groupIconVitePlugin({
+        customIcon: {
+          ts: localIconLoader(import.meta.url, '../public/svg/typescript.svg'), //本地ts图标导入
+          md: localIconLoader(import.meta.url, '../public/svg/md.svg'), //markdown图标
+          css: localIconLoader(import.meta.url, '../public/svg/css.svg'), //css图标
+          js: 'logos:javascript', //js图标
+        },
+      })
+    ],
+  },
+
+  // 开启站点地图
   sitemap: {
     hostname: 'https://mxfree.ao-x.ac.cn/',
   },
