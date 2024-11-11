@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-const visible = ref(true)
+const visible = ref(false)
 
 function closetz() {
     visible.value = false
