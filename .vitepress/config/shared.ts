@@ -1,18 +1,14 @@
 import { defineConfig } from 'vitepress'
-import { search as zhHansSearch } from './zh-Hans'
-import { search as zhHantSearch } from './zh-Hant'
-import { search as enSearch } from './en'
-import { search as jaSearch } from './ja'
-import { search as koSearch } from './ko'
-import { search as ruSearch } from './ru'
+import { search as chiSearch } from './chi'
+import { search as zhoSearch } from './zho'
+import { search as engSearch } from './eng'
+import { search as jpnSearch } from './jpn'
+import { search as korSearch } from './kor'
+import { search as rusSearch } from './rus'
 
 
 export const shared = defineConfig({
     title: '慕讯公益加速器',
-
-    rewrites: {
-        '/:rest*': 'zh-Hans/:rest*',
-    },
 
     // markdown配置
     markdown: {
@@ -36,15 +32,15 @@ export const shared = defineConfig({
                 const { localeIndex = 'root' } = env
                 const codeCopyButtonTitle = (() => {
                     switch (localeIndex) {
-                        case 'zhHant':
+                        case 'zho':
                             return '複製程式碼'
-                        case 'en':
+                        case 'eng':
                             return 'Copy code'
-                        case 'ja':
+                        case 'jpn':
                             return 'コードのコピー'
-                        case 'ko':
+                        case 'kor':
                             return '코드 복사'
-                        case 'ru':
+                        case 'rus':
                             return 'Скопировать код'
                         default:
                             return '复制代码'
@@ -99,12 +95,12 @@ export const shared = defineConfig({
                 apiKey: '*******************',
                 indexName: '**********',*/
                 locales: {
-                    ...zhHansSearch,
-                    ...zhHantSearch,
-                    ...enSearch,
-                    ...jaSearch,
-                    ...koSearch,
-                    ...ruSearch
+                    ...chiSearch,
+                    ...zhoSearch,
+                    ...engSearch,
+                    ...jpnSearch,
+                    ...korSearch,
+                    ...rusSearch
                 }
             }
         },

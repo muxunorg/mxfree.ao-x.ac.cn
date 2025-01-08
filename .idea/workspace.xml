@@ -50,7 +50,7 @@
       <recent name="C:\Users\MengWenBo\Documents\git\mxfree.ao-x.ac.cn" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.docs:start">
+  <component name="RunManager" selected="npm.docs:dev">
     <configuration name="docs:build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -103,9 +103,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.docs:dev" />
         <item itemvalue="npm.docs:start" />
         <item itemvalue="npm.docs:build" />
-        <item itemvalue="npm.docs:dev" />
         <item itemvalue="npm.docs:serve" />
         <item itemvalue="npm.docs:preview" />
       </list>
@@ -133,7 +133,9 @@
       <workItem from="1736330226605" duration="1739000" />
       <workItem from="1736337865960" duration="423000" />
       <workItem from="1736338529604" duration="37000" />
-      <workItem from="1736338703241" duration="301000" />
+      <workItem from="1736338703241" duration="850000" />
+      <workItem from="1736339646276" duration="6847000" />
+      <workItem from="1736346714588" duration="718000" />
     </task>
     <servers />
   </component>

@@ -1,33 +1,51 @@
 import { defineConfig, type DefaultTheme, UserConfig } from 'vitepress';
 
-// 定义语言变量，初始化为 'zh-Hant'，可根据实际情况修改，比如从环境变量获取等
-// 修改此处，将 lang 声明为联合类型
-const lang: 'zh-Hans' | 'zh-Hant' | 'en' | 'ja' | 'ko' | 'ru' = "en";
+// 定义语言变量，初始化为 'chi'，可根据实际情况修改，比如从环境变量获取等
+// 修改此处，将 lang 声明为联合类型，使用ISO 639-2标准里对应的语言代码
+const lang: 'chi' | 'zho' | 'eng' | 'jpn' | 'kor' | 'rus' = "eng";
 
 // 根据语言获取要导出的配置对象的函数
 function getConfigObjectToExport(): {
-  zhHans: UserConfig<DefaultTheme.Config>;
-  zhHant: UserConfig<DefaultTheme.Config>;
-  en: UserConfig<DefaultTheme.Config>;
-  ja: UserConfig<DefaultTheme.Config>;
-  ko: UserConfig<DefaultTheme.Config>;
-  ru: UserConfig<DefaultTheme.Config>;
+  chi: UserConfig<DefaultTheme.Config>;
+  zho: UserConfig<DefaultTheme.Config>;
+  eng: UserConfig<DefaultTheme.Config>;
+  jpn: UserConfig<DefaultTheme.Config>;
+  kor: UserConfig<DefaultTheme.Config>;
+  rus: UserConfig<DefaultTheme.Config>;
   defaultConfig: UserConfig<DefaultTheme.Config>;
 } {
-  let configName = 'zhHans';
-  if (lang === 'zh-Hans') {
-    configName = 'zhHans';
-  } else if (lang === 'zh-Hant') {
-    configName = 'zhHant';
-  } else if (lang === 'en') {
-    configName = 'en';
-  } else if (lang === 'ja') {
-    configName = 'ja';
-  } else if (lang === 'ko') {
-    configName = 'ko';
-  } else if (lang === 'ru') {
-    configName = 'ru';
+  let configName = 'chi';
+  if (lang === 'chi') {
+    configName = 'chi';
+  } else if (lang === 'zho') {
+    configName = 'zho';
+  } else if (lang === 'eng') {
+    configName = 'eng';
+  } else if (lang === 'jpn') {
+    configName = 'jpn';
+  } else if (lang === 'kor') {
+    configName = 'kor';
+  } else if (lang === 'rus') {
+    configName = 'rus';
   }
+
+  // 创建一个映射对象，将 lang 映射到对应的 IETF 语言标签。
+  const ietfLanguageTagMapping: { [key in typeof lang]: string } = {
+    chi: 'zh-Hans',
+    // 简体中文
+    zho: 'zh-Hant',
+    // 繁体中文
+    eng: 'en',
+    // 英文
+    jpn: 'ja',
+    // 日文
+    kor: 'ko',
+    // 韩文
+    rus: 'ru' // 俄文
+  };
+
+  // 获取当前语言的IETF语言标签
+  const ietfLangTag = ietfLanguageTagMapping[lang];
   const configVariable: UserConfig<DefaultTheme.Config> = defineConfig({
     title: "慕讯公益加速器",
     description: "慕讯公益加速器，采用开源，可以说是安全性拉满，专门针对网络游戏延迟优化，一键因网络问题造成的游戏卡顿、延迟、掉线、加载缓慢等一系列问题，完全免费无套路，游戏体验提升10000%，永久免费加速，为你提供更好的游戏操作体验，为游戏玩家解决延迟、掉线、卡机，高ping等网络问题，有效提升网络稳定性，极致降低延迟。",
@@ -54,7 +72,7 @@ function getConfigObjectToExport(): {
         //'/zh/reference/': { base: '/zh/reference/', items: sidebarReference() }
       },
       footer: {
-        message: `网页基于 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.${lang}" target="_blank"><strong>CC BY-NC-SA 4.0</strong></a> 许可发布`,
+        message: `网页基于 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.${ietfLangTag}" target="_blank"><strong>CC BY-NC-SA 4.0</strong></a> 许可发布`,
         copyright: `版权所有 © 2019-${new Date().getFullYear()} 慕讯`
       },
       returnToTopLabel: '返回顶部',
@@ -67,21 +85,21 @@ function getConfigObjectToExport(): {
       }
     }
   });
-  const result = ({} as { [key in ('zhHans' | 'zhHant' | 'en' | 'ja' | 'ko' | 'ru' | 'defaultConfig')]: UserConfig<DefaultTheme.Config> });
+  const result = ({} as { [key in ('chi' | 'zho' | 'eng' | 'jpn' | 'kor' | 'rus' | 'defaultConfig')]: UserConfig<DefaultTheme.Config> });
 
   // 根据确定好的配置对象名称填充结果对象
-  if (configName === 'zhHans') {
-    result.zhHans = configVariable;
-  } else if (configName === 'zhHant') {
-    result.zhHant = configVariable;
-  } else if (configName === 'en') {
-    result.en = configVariable;
-  } else if (configName === 'ja') {
-    result.ja = configVariable;
-  } else if (configName === 'ko') {
-    result.ko = configVariable;
-  } else if (configName === 'ru') {
-    result.ru = configVariable;
+  if (configName === 'chi') {
+    result.chi = configVariable;
+  } else if (configName === 'zho') {
+    result.zho = configVariable;
+  } else if (configName === 'eng') {
+    result.eng = configVariable;
+  } else if (configName === 'jpn') {
+    result.jpn = configVariable;
+  } else if (configName === 'kor') {
+    result.kor = configVariable;
+  } else if (configName === 'rus') {
+    result.rus = configVariable;
   } else {
     result.defaultConfig = configVariable;
   }
@@ -147,7 +165,7 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
                 {
                     text: 'frontmatter 配置',
                     link: 'frontmatter-conf'
-                },
+                ],
                 {
                     text: '运行时 API',
                     link: 'runtime-api'
@@ -219,8 +237,22 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
     ]
 }*/
 
+// 创建一个映射对象，将 lang 映射到对应的 Algolia 根键名。
+const algoliaKeyMapping: { [key in typeof lang]: string } = {
+  chi: 'root',
+  zho: 'zho',
+  eng: 'en',
+  jpn: 'ja',
+  kor: 'ko',
+  rus: 'ru'
+};
+
+// 获取当前语言的Algolia根键名
+const algoliaRootKey = algoliaKeyMapping[lang];
+
+// 直接导出带有动态键名的搜索配置
 export const search: DefaultTheme.AlgoliaSearchOptions['locales'] = {
-  root: {
+  [algoliaRootKey]: {
     placeholder: '搜索文档',
     translations: {
       button: {
