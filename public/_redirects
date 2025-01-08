@@ -1,4 +1,8 @@
 /forme /donate.html 301
 /mx_service_agreement /download.html 301
-/Install.exe /client/dl/InstallV1.0.0.6.exe 302
-/Update.exe /client/dl/UpdateV1.0.0.1.exe 302
+/ /zh-Hans 301
+/zh_TW /zh-Hant 301
+/en_US /en 301
+/ja_JP /ja 301
+/ko_KR /ko 301
+/ru_RU /ru 301
