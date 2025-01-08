@@ -48,7 +48,7 @@ function getConfigObjectToExport(): {
   const ietfLangTag = ietfLanguageTagMapping[lang];
   const configVariable: UserConfig<DefaultTheme.Config> = defineConfig({
     title: "慕讯公益加速器",
-    description: "慕讯公益加速器，采用开源，可以说是安全性拉满，专门针对网络游戏延迟优化，一键因网络问题造成的游戏卡顿、延迟、掉线、加载缓慢等一系列问题，完全免费无套路，游戏体验提升10000%，永久免费加速，为你提供更好的游戏操作体验，为游戏玩家解决延迟、掉线、卡机，高ping等网络问题，有效提升网络稳定性，极致降低延迟。",
+    description: "慕讯公益加速器-官方网站，官方网站，慕讯公益加速器，采用开源，可以说是安全性拉满，专门针对网络游戏延迟优化，一键因网络问题造成的游戏卡顿、延迟、掉线、加载缓慢等一系列问题，完全免费无套路，游戏体验提升10000%，永久免费加速，为你提供更好的游戏操作体验，为游戏玩家解决延迟、掉线、卡机，高ping等网络问题，有效提升网络稳定性，极致降低延迟。",
     head: [['meta', {
       property: 'og:locale',
       content: lang
@@ -75,14 +75,27 @@ function getConfigObjectToExport(): {
         message: `网页基于 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.${ietfLangTag}" target="_blank"><strong>CC BY-NC-SA 4.0</strong></a> 许可发布`,
         copyright: `版权所有 © 2019-${new Date().getFullYear()} 慕讯`
       },
-      returnToTopLabel: '返回顶部',
-      darkModeSwitchLabel: '浅/深色模式',
-      lightModeSwitchTitle: '浅色模式',
-      darkModeSwitchTitle: '深色模式',
-      langMenuLabel: '语言切换',
+      docFooter: {
+        prev: '上一页',
+        next: '下一页'
+      },
       outline: {
         label: '页面导航'
-      }
+      },
+      lastUpdated: {
+        text: '最后更新于',
+        formatOptions: {
+          dateStyle: 'short',
+          timeStyle: 'medium'
+        }
+      },
+      langMenuLabel: '多语言',
+      returnToTopLabel: '回到顶部',
+      sidebarMenuLabel: '菜单',
+      darkModeSwitchLabel: '主题',
+      lightModeSwitchTitle: '切换到浅色模式',
+      darkModeSwitchTitle: '切换到深色模式',
+      skipToContentLabel: '跳转到内容'
     }
   });
   const result = ({} as { [key in ('chi' | 'zho' | 'eng' | 'jpn' | 'kor' | 'rus' | 'defaultConfig')]: UserConfig<DefaultTheme.Config> });
@@ -146,6 +159,16 @@ function sidebarwiki(): DefaultTheme.SidebarItem[] {
     items: [{
       text: '安装与卸载',
       link: 'Install and Uninstall'
+    }]
+  }, {
+    text: '更多问题',
+    collapsed: false,
+    items: [{
+      text: '软件问题',
+      link: 'Software'
+    }, {
+      text: '硬件问题',
+      link: 'Hardware'
     }]
   }, {
     text: '聊天与反馈频道',

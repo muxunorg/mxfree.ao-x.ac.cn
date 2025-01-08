@@ -8,14 +8,15 @@ import { search as rusSearch } from './rus'
 
 
 export const shared = defineConfig({
-    title: '慕讯公益加速器',
-
+    lastUpdated: true,
+    cleanUrls: true,
+    metaChunk: true,
     // markdown配置
     markdown: {
         // 行号显示
         lineNumbers: true,
         // 数学公式
-        math: false,
+        math: true,
         // 使用 `!!code` 防止转换
         codeTransformers: [
             {
@@ -67,7 +68,6 @@ export const shared = defineConfig({
     sitemap: {
         hostname: 'https://mxfree.ao-x.ac.cn',
     },
-
     /* prettier-ignore */
     head: [
         ['link', { rel: 'icon', type: 'image/avif', href: '/img/logo.avif' }],
@@ -81,10 +81,8 @@ export const shared = defineConfig({
         ['meta', { property: 'og:image', content: 'https://mxfree.ao-x.ac.cn/vitepress-og.jpg' }],
         ['script', {type : 'text/javascript', src: '/js/bd1.js', async: '' }],
     ],
-
     themeConfig: {
         logo: '/img/logo.avif',
-
         //搜索
         search: {
             provider: 'local',// local/algolia
