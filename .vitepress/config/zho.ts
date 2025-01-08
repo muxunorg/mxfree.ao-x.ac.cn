@@ -47,20 +47,20 @@ function getConfigObjectToExport(): {
   // 获取当前语言的IETF语言标签
   const ietfLangTag = ietfLanguageTagMapping[lang];
   const configVariable: UserConfig<DefaultTheme.Config> = defineConfig({
-    title: "慕讯公益加速器",
-    description: "慕讯公益加速器-官方网站，官方网站，慕讯公益加速器，采用开源，可以说是安全性拉满，专门针对网络游戏延迟优化，一键因网络问题造成的游戏卡顿、延迟、掉线、加载缓慢等一系列问题，完全免费无套路，游戏体验提升10000%，永久免费加速，为你提供更好的游戏操作体验，为游戏玩家解决延迟、掉线、卡机，高ping等网络问题，有效提升网络稳定性，极致降低延迟。",
+    title: "慕訊公益加速器",
+    description: "慕訊公益加速器-官方網站，官方網站，慕訊公益加速器，採用開源，可以說是安全性拉滿，專門針對網路遊戲延遲優化，一鍵因網路問題造成的遊戲卡頓、延遲、掉線、載入緩慢等一系列問題，完全免費無套路，遊戲體驗提升10000%，永久免費加速，為你提供更好的遊戲操作體驗，為遊戲玩家解決延遲、掉線、卡機，高ping等網路問題，有效提升網路穩定性， 極致降低延遲。",
     head: [['meta', {
       property: 'og:locale',
       content: lang
     }], ['meta', {
       property: 'og:title',
-      content: '慕讯公益加速器 | 将免费进行到底'
+      content: "慕訊公益加速器 | 將免費進行到底"
     }], ['meta', {
       property: 'og:site_name',
-      content: '慕讯公益加速器'
+      content: "慕訊公益加速器"
     }], ['meta', {
       name: 'keywords',
-      content: '慕讯公益加速器,免费游戏加速器,免费加速器,加速器,游戏加速,网游加速器,游戏加速,英雄联盟,Steam,战网,Epic,Apex英雄,CSGO,PUBG,绝地求生,暗黑破坏神,英雄联盟,Valorant,GTA 5,永劫无间,电竞加速器,加速器福利,加速器口令码,免费加速器,公益加速器'
+      content: "慕訊公益加速器,免費遊戲加速器,免費加速器,加速器,遊戲加速,網遊加速器,遊戲加速,英雄聯盟,Steam,戰網,Epic,Apex英雄,CSGO,PUBG,絕地求生,暗黑破壞神,英雄聯盟, Valorant,GTA 5,永劫無間,電競加速器,加速器福利,加速器口令碼,免費加速器,公益加速器"
     }]],
     themeConfig: {
       nav: nav(),
@@ -72,30 +72,30 @@ function getConfigObjectToExport(): {
         //'/zh/reference/': { base: '/zh/reference/', items: sidebarReference() }
       },
       footer: {
-        message: `网页基于 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.${ietfLangTag}" target="_blank"><strong>CC BY-NC-SA 4.0</strong></a> 许可发布`,
-        copyright: `版权所有 © 2019-${new Date().getFullYear()} 慕讯`
+        message: `網頁基於 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.${ietfLangTag}" target="_blank"><strong>CC BY-NC-SA 4.0</strong></a>許可發佈`,
+        copyright: `版權所有 © 2019-${new Date().getFullYear()} 慕訊`
       },
       docFooter: {
-        prev: '上一页',
-        next: '下一页'
+        prev: "上一頁",
+        next: "下一頁"
       },
       outline: {
-        label: '页面导航'
+        label: "頁面導航"
       },
       lastUpdated: {
-        text: '最后更新于',
+        text: "最後更新於",
         formatOptions: {
           dateStyle: 'short',
           timeStyle: 'medium'
         }
       },
-      langMenuLabel: '多语言',
-      returnToTopLabel: '回到顶部',
-      sidebarMenuLabel: '菜单',
-      darkModeSwitchLabel: '主题',
-      lightModeSwitchTitle: '切换到浅色模式',
-      darkModeSwitchTitle: '切换到深色模式',
-      skipToContentLabel: '跳转到内容'
+      langMenuLabel: "多語言",
+      returnToTopLabel: "回到頂部",
+      sidebarMenuLabel: "功能表",
+      darkModeSwitchLabel: "主題",
+      lightModeSwitchTitle: "切換到淺色模式",
+      darkModeSwitchTitle: "切換到深色模式",
+      skipToContentLabel: "跳轉到內容"
     }
   });
   const result = ({} as { [key in ('chi' | 'zho' | 'eng' | 'jpn' | 'kor' | 'rus' | 'defaultConfig')]: UserConfig<DefaultTheme.Config> });
@@ -123,55 +123,55 @@ function getConfigObjectToExport(): {
 export default getConfigObjectToExport();
 function nav(): DefaultTheme.NavItem[] {
   return [{
-    text: '首页',
+    text: "首頁",
     link: `/${lang}/`
   }, {
-    text: '下载',
+    text: "下載",
     link: `/${lang}/download/`
   }, {
     text: '捐助',
     link: `/${lang}/donate/`
   }, {
-    text: '帮助文档',
+    text: "幫助文件",
     link: `/${lang}/wiki/`
   }, {
-    text: '反馈问题',
+    text: "反饋問題",
     link: 'https://pd.qq.com/g/ii843tu61i'
   }, {
-    text: '翻译',
+    text: "翻譯",
     items: [{
-      text: '中文界面',
+      text: "簡體中文介面",
       link: 'https://zh.crowdin.com/project/mxfree'
     }, {
-      text: '英文界面',
+      text: "英文介面",
       link: 'https://crowdin.com/project/mxfree'
     }]
   }];
 }
 function sidebarwiki(): DefaultTheme.SidebarItem[] {
   return [{
-    text: '简介',
+    text: "簡介",
     collapsed: false,
     link: 'index'
   }, {
-    text: '基础问题',
+    text: "基礎問題",
     collapsed: false,
     items: [{
-      text: '安装与卸载',
+      text: "安裝與卸載",
       link: 'Install and Uninstall'
     }]
   }, {
-    text: '更多问题',
+    text: "更多問題",
     collapsed: false,
     items: [{
-      text: '软件问题',
+      text: "軟體問題",
       link: 'Software'
     }, {
-      text: '硬件问题',
+      text: "硬體問題",
       link: 'Hardware'
     }]
   }, {
-    text: '聊天与反馈频道',
+    text: "聊天與反饋頻道",
     link: 'https://pd.qq.com/g/ii843tu61i'
   }];
 }
@@ -276,42 +276,42 @@ const algoliaRootKey = algoliaKeyMapping[lang];
 // 直接导出带有动态键名的搜索配置
 export const search: DefaultTheme.AlgoliaSearchOptions['locales'] = {
   [algoliaRootKey]: {
-    placeholder: '搜索文档',
+    placeholder: "搜索文件",
     translations: {
       button: {
-        buttonText: '搜索文档',
-        buttonAriaLabel: '搜索文档'
+        buttonText: "搜索文件",
+        buttonAriaLabel: "搜索文件"
       },
       modal: {
         searchBox: {
-          resetButtonTitle: '清除查询条件',
-          resetButtonAriaLabel: '清除查询条件',
+          resetButtonTitle: "清除查詢條件",
+          resetButtonAriaLabel: "清除查詢條件",
           cancelButtonText: '取消',
           cancelButtonAriaLabel: '取消'
         },
         startScreen: {
-          recentSearchesTitle: '搜索历史',
-          noRecentSearchesText: '没有搜索历史',
-          saveRecentSearchButtonTitle: '保存至搜索历史',
+          recentSearchesTitle: "搜索歷史",
+          noRecentSearchesText: "沒有搜索歷史",
+          saveRecentSearchButtonTitle: "保存至搜索歷史",
           removeRecentSearchButtonTitle: '从搜索历史中移除',
           favoriteSearchesTitle: '收藏',
-          removeFavoriteSearchButtonTitle: '从收藏中移除'
+          removeFavoriteSearchButtonTitle: "從收藏中移除"
         },
         errorScreen: {
-          titleText: '无法获取结果',
-          helpText: '你可能需要检查你的网络连接'
+          titleText: "無法獲取結果",
+          helpText: "你可能需要檢查你的網路連接"
         },
         footer: {
-          selectText: '选择',
-          navigateText: '切换',
-          closeText: '关闭',
-          searchByText: '搜索提供者'
+          selectText: "選擇",
+          navigateText: "切換",
+          closeText: "關閉",
+          searchByText: "搜尋提供者"
         },
         noResultsScreen: {
-          noResultsText: '无法找到相关结果',
-          suggestedQueryText: '你可以尝试查询',
-          reportMissingResultsText: '你认为该查询应该有结果？',
-          reportMissingResultsLinkText: '点击反馈'
+          noResultsText: "無法找到相關結果",
+          suggestedQueryText: "你可以嘗試查詢",
+          reportMissingResultsText: "你認為該查詢應該有結果？",
+          reportMissingResultsLinkText: "點擊反饋"
         }
       }
     }
