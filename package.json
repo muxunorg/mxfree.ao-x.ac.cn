@@ -2,7 +2,8 @@
   "name": "mxfree_web",
   "type": "module",
   "devDependencies": {
-    "vitepress": "^1.5.0"
+    "vitepress": "^1.5.0",
+    "markdown-it-mathjax3": "^4.3.2"
   },
   "scripts": {
     "docs:start": "cnpm install && vitepress dev --host 0.0.0.0",

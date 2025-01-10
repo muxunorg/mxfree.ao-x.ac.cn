@@ -47,20 +47,20 @@ function getConfigObjectToExport(): {
   // 获取当前语言的IETF语言标签
   const ietfLangTag = ietfLanguageTagMapping[lang];
   const configVariable: UserConfig<DefaultTheme.Config> = defineConfig({
-    title: "慕讯公益加速器",
-    description: "慕讯公益加速器，采用开源，可以说是安全性拉满，专门针对网络游戏延迟优化，一键因网络问题造成的游戏卡顿、延迟、掉线、加载缓慢等一系列问题，完全免费无套路，游戏体验提升10000%，永久免费加速，为你提供更好的游戏操作体验，为游戏玩家解决延迟、掉线、卡机，高ping等网络问题，有效提升网络稳定性，极致降低延迟。",
+    title: "Благотворительный акселератор Муксун",
+    description: "Mousse Public Welfare Accelerator - официальный сайт, официальный сайт, Mousse Public Welfare Accelerator, используя открытый исходный код, можно сказать, полон безопасности, специально оптимизирован для задержки онлайн-игр, игра в один клик, вызванная проблемами с сетью, вызванными рядом проблем, таких как зависание игры, задержка, отключение, медленная загрузка и т. Д., Совершенно бесплатно без рутины, игровой опыт улучшен на 10000%, а постоянное бесплатное ускорение обеспечивает вам лучший опыт работы в игре, решает сетевые проблемы, такие как задержка, отключение, зависание и высокий пинг для геймеров, а также эффективно улучшает стабильность сети. Минимизируйте задержку.",
     head: [['meta', {
       property: 'og:locale',
       content: lang
     }], ['meta', {
       property: 'og:title',
-      content: '慕讯公益加速器 | 将免费进行到底'
+      content: "Акселератор благотворительности MOSSE | Она будет проводиться бесплатно до конца"
     }], ['meta', {
       property: 'og:site_name',
-      content: '慕讯公益加速器'
+      content: "Благотворительный акселератор Муксун"
     }], ['meta', {
       name: 'keywords',
-      content: '慕讯公益加速器,免费游戏加速器,免费加速器,加速器,游戏加速,网游加速器,游戏加速,英雄联盟,Steam,战网,Epic,Apex英雄,CSGO,PUBG,绝地求生,暗黑破坏神,英雄联盟,Valorant,GTA 5,永劫无间,电竞加速器,加速器福利,加速器口令码,免费加速器,公益加速器'
+      content: "Ускоритель общественного благосостояния Muxun, бесплатный ускоритель игр, бесплатный ускоритель, ускоритель, ускорение игр, ускоритель онлайн-игр, ускорение игр, League of Legends, Steam, Battle.net, Epic, Apex Legends, CSGO, PUBG, PlayerUnknown's Battlegrounds, Diablo, League of Legends, Valorant, GTA 5, вечная катастрофа, ускоритель киберспорта, преимущества ускорителя, код пароля ускорителя, бесплатный ускоритель, ускоритель общественного благосостояния"
     }]],
     themeConfig: {
       nav: nav(),
@@ -72,17 +72,30 @@ function getConfigObjectToExport(): {
         //'/zh/reference/': { base: '/zh/reference/', items: sidebarReference() }
       },
       footer: {
-        message: `网页基于 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.${ietfLangTag}" target="_blank"><strong>CC BY-NC-SA 4.0</strong></a> 许可发布`,
-        copyright: `版权所有 © 2019-${new Date().getFullYear()} 慕讯`
+        message: `Веб-страница основана на <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.${ietfLangTag}" target="_blank"><strong>CC BY-NC-SA 4.0</strong></a> Лицензионное распространение`,
+        copyright: `Все права защищены © 2019-${new Date().getFullYear()} Муксун`
       },
-      returnToTopLabel: '返回顶部',
-      darkModeSwitchLabel: '浅/深色模式',
-      lightModeSwitchTitle: '浅色模式',
-      darkModeSwitchTitle: '深色模式',
-      langMenuLabel: '语言切换',
+      docFooter: {
+        prev: "Предыдущая страница",
+        next: "Следующая страница"
+      },
       outline: {
-        label: '页面导航'
-      }
+        label: "Изменить язык"
+      },
+      lastUpdated: {
+        text: "Обновлено",
+        formatOptions: {
+          dateStyle: 'short',
+          timeStyle: 'medium'
+        }
+      },
+      langMenuLabel: "Оформление",
+      returnToTopLabel: "Вернуться к началу",
+      sidebarMenuLabel: "Меню",
+      darkModeSwitchLabel: "Оформление",
+      lightModeSwitchTitle: "Переключить на светлую тему",
+      darkModeSwitchTitle: "Переключить на тёмную тему",
+      skipToContentLabel: "Перейти к содержимому"
     }
   });
   const result = ({} as { [key in ('chi' | 'zho' | 'eng' | 'jpn' | 'kor' | 'rus' | 'defaultConfig')]: UserConfig<DefaultTheme.Config> });
@@ -110,46 +123,56 @@ function getConfigObjectToExport(): {
 export default getConfigObjectToExport();
 function nav(): DefaultTheme.NavItem[] {
   return [{
-    text: '首页',
+    text: "Дом",
     link: `/${lang}/`
   }, {
-    text: '下载',
+    text: "Загружать",
     link: `/${lang}/download/`
   }, {
-    text: '捐助',
+    text: "Пожертвовать",
     link: `/${lang}/donate/`
   }, {
-    text: '帮助文档',
+    text: "Помощь & Доки",
     link: `/${lang}/wiki/`
   }, {
-    text: '反馈问题',
+    text: '交流与反馈',
     link: 'https://pd.qq.com/g/ii843tu61i'
   }, {
-    text: '翻译',
+    text: "переводить",
     items: [{
-      text: '中文界面',
+      text: "Китайский интерфейс",
       link: 'https://zh.crowdin.com/project/mxfree'
     }, {
-      text: '英文界面',
+      text: "Английский интерфейс",
       link: 'https://crowdin.com/project/mxfree'
     }]
   }];
 }
 function sidebarwiki(): DefaultTheme.SidebarItem[] {
   return [{
-    text: '简介',
+    text: "Краткое введение",
     collapsed: false,
     link: 'index'
   }, {
-    text: '基础问题',
+    text: "Принципиальные вопросы",
     collapsed: false,
     items: [{
-      text: '安装与卸载',
+      text: "Установка и демонтаж",
       link: 'Install and Uninstall'
     }]
   }, {
-    text: '聊天与反馈频道',
-    link: 'https://pd.qq.com/g/ii843tu61i'
+    text: "Больше вопросов",
+    collapsed: false,
+    items: [{
+      text: "Проблемы с программным обеспечением",
+      link: 'Software'
+    }, {
+      text: "Проблемы с оборудованием",
+      link: 'Hardware'
+    }]
+  }, {
+    text: "Чат и канал обратной связи",
+    link: 'Chat with feedback'
   }];
 }
 /*
@@ -253,42 +276,42 @@ const algoliaRootKey = algoliaKeyMapping[lang];
 // 直接导出带有动态键名的搜索配置
 export const search: DefaultTheme.AlgoliaSearchOptions['locales'] = {
   [algoliaRootKey]: {
-    placeholder: '搜索文档',
+    placeholder: "Поиск в документации",
     translations: {
       button: {
-        buttonText: '搜索文档',
-        buttonAriaLabel: '搜索文档'
+        buttonText: "Поиск",
+        buttonAriaLabel: "Поиск"
       },
       modal: {
         searchBox: {
-          resetButtonTitle: '清除查询条件',
-          resetButtonAriaLabel: '清除查询条件',
-          cancelButtonText: '取消',
-          cancelButtonAriaLabel: '取消'
+          resetButtonTitle: "Сбросить поиск",
+          resetButtonAriaLabel: "Сбросить поиск",
+          cancelButtonText: "Отменить поиск",
+          cancelButtonAriaLabel: "Отменить поиск"
         },
         startScreen: {
-          recentSearchesTitle: '搜索历史',
-          noRecentSearchesText: '没有搜索历史',
-          saveRecentSearchButtonTitle: '保存至搜索历史',
-          removeRecentSearchButtonTitle: '从搜索历史中移除',
-          favoriteSearchesTitle: '收藏',
-          removeFavoriteSearchButtonTitle: '从收藏中移除'
+          recentSearchesTitle: "История поиска",
+          noRecentSearchesText: "Нет истории поиска",
+          saveRecentSearchButtonTitle: "Сохранить в истории поиска",
+          removeRecentSearchButtonTitle: "Удалить из истории поиска",
+          favoriteSearchesTitle: "Избранное",
+          removeFavoriteSearchButtonTitle: "Удалить из избранного"
         },
         errorScreen: {
-          titleText: '无法获取结果',
-          helpText: '你可能需要检查你的网络连接'
+          titleText: "Невозможно получить результаты",
+          helpText: "Вам может потребоваться проверить подключение к Интернету"
         },
         footer: {
-          selectText: '选择',
-          navigateText: '切换',
-          closeText: '关闭',
-          searchByText: '搜索提供者'
+          selectText: "выбрать",
+          navigateText: "перейти",
+          closeText: "закрыть",
+          searchByText: "поставщик поиска"
         },
         noResultsScreen: {
-          noResultsText: '无法找到相关结果',
-          suggestedQueryText: '你可以尝试查询',
-          reportMissingResultsText: '你认为该查询应该有结果？',
-          reportMissingResultsLinkText: '点击反馈'
+          noResultsText: "Нет результатов для",
+          suggestedQueryText: "Вы можете попытаться узнать",
+          reportMissingResultsText: "Считаете, что поиск даёт ложные результаты？",
+          reportMissingResultsLinkText: "Нажмите на кнопку «Обратная связь»"
         }
       }
     }
