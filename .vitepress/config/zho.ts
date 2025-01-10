@@ -135,7 +135,7 @@ function nav(): DefaultTheme.NavItem[] {
     text: "幫助文件",
     link: `/${lang}/wiki/`
   }, {
-    text: "反饋問題",
+    text: '交流与反馈',
     link: 'https://pd.qq.com/g/ii843tu61i'
   }, {
     text: "翻譯",
@@ -172,7 +172,7 @@ function sidebarwiki(): DefaultTheme.SidebarItem[] {
     }]
   }, {
     text: "聊天與反饋頻道",
-    link: 'https://pd.qq.com/g/ii843tu61i'
+    link: 'Chat with feedback'
   }];
 }
 /*

@@ -1,7 +1,7 @@
-# 硬件问题
+# Hardware Issues
 
-> ### 使用加速器后断网的问题
+> ### The problem of network disconnection after using the accelerator
 >
-> 1. 在电脑目录`C:\Windows\System32\drivers`
-> 2. 搜索`mxn`把驱动拉到桌面
-> 3. 重启电脑删除
+> 1. In the computer directory `C:\Windows\System32\drivers`
+> 2. Search for `MXN` and pull the driver to the desktop
+> 3. Restart your computer to delete

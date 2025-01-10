@@ -135,7 +135,7 @@ function nav(): DefaultTheme.NavItem[] {
     text: "Помощь & Доки",
     link: `/${lang}/wiki/`
   }, {
-    text: "Вопрос обратной связи",
+    text: '交流与反馈',
     link: 'https://pd.qq.com/g/ii843tu61i'
   }, {
     text: "переводить",
@@ -172,7 +172,7 @@ function sidebarwiki(): DefaultTheme.SidebarItem[] {
     }]
   }, {
     text: "Чат и канал обратной связи",
-    link: 'https://pd.qq.com/g/ii843tu61i'
+    link: 'Chat with feedback'
   }];
 }
 /*

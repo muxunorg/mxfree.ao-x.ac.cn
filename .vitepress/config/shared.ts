@@ -85,13 +85,12 @@ export const shared = defineConfig({
         logo: '/img/logo.avif',
         //搜索
         search: {
-            provider: 'local',// local/algolia
+            provider: 'algolia',
             options: {
                 //algolia配置
-                /*
-                appId: '**********',
-                apiKey: '*******************',
-                indexName: '**********',*/
+                appId: 'XZXFJQGA2B',
+                apiKey: '738b5bdd09d11e17c27768d740590190',
+                indexName: 'mxfree-ao-x-ac',
                 locales: {
                     ...chiSearch,
                     ...zhoSearch,
