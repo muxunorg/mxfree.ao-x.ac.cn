@@ -1,14 +1,14 @@
-# 聊天与反馈
+# Chat & Feedback
 
-## 聊天
+## Chat
 
-> - 腾讯频道 [点此前往](https://pd.qq.com/g/ii843tu61i/text/639977577?subc=639917409)
-> - QQ交流群 `681654839`
+> - Tencent Channel [点此前往](https://pd.qq.com/g/ii843tu61i/text/6399777577?subc=639917409)
+> - QQ Exchange `6816544839`
 
-## 反馈
+## Feedback
 
-> - 腾讯频道 [点此前往](https://pd.qq.com/g/ii843tu61i?subc=639917409)
-> - 微信公众号 `慕讯`
->   ::: tip 提示
->   后续我们将上线官方客服功能
->   :::
+> - Tencent Channel [点此前往](https://pd.qq.com/g/ii843tu61i?subc=639917409)
+> - The public name \`\`admiration of \`\`\`\`
+>   :::tip hint
+>   follow up on our online official support function
+>   ::::

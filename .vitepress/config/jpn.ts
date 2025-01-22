@@ -48,19 +48,19 @@ function getConfigObjectToExport(): {
   const ietfLangTag = ietfLanguageTagMapping[lang];
   const configVariable: UserConfig<DefaultTheme.Config> = defineConfig({
     title: "",
-    description: "慕讯公益加速器-官方网站，官方网站，慕讯公益加速器，采用开源，可以说是安全性拉满，专门针对网络游戏延迟优化，一键因网络问题造成的游戏卡顿、延迟、掉线、加载缓慢等一系列问题，完全免费无套路，游戏体验提升10000%，永久免费加速，为你提供更好的游戏操作体验，为游戏玩家解决延迟、掉线、卡机，高ping等网络问题，有效提升网络稳定性，极致降低延迟。",
+    description: "ミューズメント・加速器-公式ウェブサイト、ミューズメント・スピードアップローダー、オープンソースソフトウェアを採用し、複数のネットワーク・遅延・ネットワークの問題により発生するゲームカード、遅延、遅延、アドバンテージ、ロードといった非常に幅広い問題に対応しています。ゲームが10000%へ行け、永久に無料です。",
     head: [['meta', {
       property: 'og:locale',
       content: lang
     }], ['meta', {
       property: 'og:title',
-      content: '慕讯公益加速器 | 将免费进行到底'
+      content: "ミューズリーブースター | 同期に無料の"
     }], ['meta', {
       property: 'og:site_name',
-      content: '慕讯公益加速器'
+      content: "Muxun チャリティー アクセラレーター"
     }], ['meta', {
       name: 'keywords',
-      content: '慕讯公益加速器,免费游戏加速器,免费加速器,加速器,游戏加速,网游加速器,游戏加速,英雄联盟,Steam,战网,Epic,Apex英雄,CSGO,PUBG,绝地求生,暗黑破坏神,英雄联盟,Valorant,GTA 5,永劫无间,电竞加速器,加速器福利,加速器口令码,免费加速器,公益加速器'
+      content: "ミューは公益加速器、無料の加速器、無料加速器、加速器、ゲーム加速、ゲーム加速、ゲームUPE、ヒーロー同盟、Steam、バトルグラウンド、Epic、Apex英雄、CSGO、PUBG、ジェ能力、ハッキングなどの組み合わせ、略式とG、COSA 5,Boorant、G、略式加速器、略奪"
     }]],
     themeConfig: {
       nav: nav(),
@@ -72,30 +72,30 @@ function getConfigObjectToExport(): {
         //'/zh/reference/': { base: '/zh/reference/', items: sidebarReference() }
       },
       footer: {
-        message: `网页基于 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.${ietfLangTag}" target="_blank"><strong>CC BY-NC-SA 4.0</strong></a> 许可发布`,
-        copyright: `版权所有 © 2019-${new Date().getFullYear()} 慕讯`
+        message: `Web ページ <a href="https://creativecommons.org/licenses/by-sc-sa/4.0/deed.${ietfLangTag}" target="_blank"><strong>CC BY-NC-SA 4.0</strong></a> によるライセンスがあります`,
+        copyright: `著作権 ©️ 2019 -${new Date().getFullYear()} ホラス`
       },
       docFooter: {
-        prev: '上一页',
-        next: '下一页'
+        prev: "前のページ",
+        next: "次へ"
       },
       outline: {
-        label: '页面导航'
+        label: "ページナビゲーション"
       },
       lastUpdated: {
-        text: '最后更新于',
+        text: "更新しました",
         formatOptions: {
           dateStyle: 'short',
           timeStyle: 'medium'
         }
       },
-      langMenuLabel: '多语言',
-      returnToTopLabel: '回到顶部',
-      sidebarMenuLabel: '菜单',
-      darkModeSwitchLabel: '主题',
-      lightModeSwitchTitle: '切换到浅色模式',
-      darkModeSwitchTitle: '切换到深色模式',
-      skipToContentLabel: '跳转到内容'
+      langMenuLabel: "多言語対応",
+      returnToTopLabel: "トップに戻る",
+      sidebarMenuLabel: "メニュー",
+      darkModeSwitchLabel: "テーマ",
+      lightModeSwitchTitle: "ライトモードに切り替え",
+      darkModeSwitchTitle: "ダークモードに切り替える",
+      skipToContentLabel: "コンテンツにスキップ"
     }
   });
   const result = ({} as { [key in ('chi' | 'zho' | 'eng' | 'jpn' | 'kor' | 'rus' | 'defaultConfig')]: UserConfig<DefaultTheme.Config> });
@@ -123,56 +123,56 @@ function getConfigObjectToExport(): {
 export default getConfigObjectToExport();
 function nav(): DefaultTheme.NavItem[] {
   return [{
-    text: '首页',
+    text: "ホーム",
     link: `/${lang}/`
   }, {
-    text: '下载',
+    text: "ダウンロード",
     link: `/${lang}/download/`
   }, {
-    text: '捐助',
+    text: "寄付する",
     link: `/${lang}/donate/`
   }, {
-    text: '帮助文档',
+    text: "ドキュメント",
     link: `/${lang}/wiki/`
   }, {
-    text: '交流与反馈',
+    text: "コミュニケーションとフィードバック",
     link: 'https://pd.qq.com/g/ii843tu61i'
   }, {
-    text: '翻译',
+    text: "翻訳",
     items: [{
-      text: '中文界面',
+      text: "中国語の UI",
       link: 'https://zh.crowdin.com/project/mxfree'
     }, {
-      text: '英文界面',
+      text: "英語で表示する",
       link: 'https://crowdin.com/project/mxfree'
     }]
   }];
 }
 function sidebarwiki(): DefaultTheme.SidebarItem[] {
   return [{
-    text: '简介',
+    text: "はじめに",
     collapsed: false,
     link: 'index'
   }, {
-    text: '基础问题',
+    text: "基本的な問題",
     collapsed: false,
     items: [{
-      text: '安装与卸载',
+      text: "インストールとアンインストール",
       link: 'Install and Uninstall'
     }]
   }, {
-    text: '更多问题',
+    text: "質問をふやす",
     collapsed: false,
     items: [{
-      text: '软件问题',
+      text: "ソフトウェアの問題",
       link: 'Software'
     }, {
-      text: '硬件问题',
+      text: "ハードウェア問題",
       link: 'Hardware'
     }]
   }, {
-    text: '聊天与反馈频道',
-    link: 'Chat with feedback'
+    text: "チャットとフィードバックチャンネル",
+    link: "at with feedback"
   }];
 }
 /*
@@ -276,42 +276,42 @@ const algoliaRootKey = algoliaKeyMapping[lang];
 // 直接导出带有动态键名的搜索配置
 export const search: DefaultTheme.AlgoliaSearchOptions['locales'] = {
   [algoliaRootKey]: {
-    placeholder: '搜索文档',
+    placeholder: "ドキュメントを検索",
     translations: {
       button: {
-        buttonText: '搜索文档',
-        buttonAriaLabel: '搜索文档'
+        buttonText: "ドキュメントを検索",
+        buttonAriaLabel: "ドキュメントを検索"
       },
       modal: {
         searchBox: {
-          resetButtonTitle: '清除查询条件',
-          resetButtonAriaLabel: '清除查询条件',
-          cancelButtonText: '取消',
-          cancelButtonAriaLabel: '取消'
+          resetButtonTitle: "検索キーワードを削除",
+          resetButtonAriaLabel: "検索キーワードを削除",
+          cancelButtonText: "キャンセル",
+          cancelButtonAriaLabel: "キャンセル"
         },
         startScreen: {
-          recentSearchesTitle: '搜索历史',
-          noRecentSearchesText: '没有搜索历史',
-          saveRecentSearchButtonTitle: '保存至搜索历史',
-          removeRecentSearchButtonTitle: '从搜索历史中移除',
-          favoriteSearchesTitle: '收藏',
-          removeFavoriteSearchButtonTitle: '从收藏中移除'
+          recentSearchesTitle: "検索履歴",
+          noRecentSearchesText: "検索結果なし",
+          saveRecentSearchButtonTitle: "検索履歴に保存",
+          removeRecentSearchButtonTitle: "検索履歴から削除",
+          favoriteSearchesTitle: "お気に入り",
+          removeFavoriteSearchButtonTitle: "お気に入りから削除"
         },
         errorScreen: {
-          titleText: '无法获取结果',
-          helpText: '你可能需要检查你的网络连接'
+          titleText: "結果を取得できません",
+          helpText: "ネットワーク接続を確認する必要があるかもしれません"
         },
         footer: {
-          selectText: '选择',
-          navigateText: '切换',
-          closeText: '关闭',
-          searchByText: '搜索提供者'
+          selectText: "選択",
+          navigateText: "切り替え",
+          closeText: "閉じる",
+          searchByText: "検索プロバイダ"
         },
         noResultsScreen: {
-          noResultsText: '无法找到相关结果',
-          suggestedQueryText: '你可以尝试查询',
-          reportMissingResultsText: '你认为该查询应该有结果？',
-          reportMissingResultsLinkText: '点击反馈'
+          noResultsText: "該当結果が見つかりませんでした。",
+          suggestedQueryText: "問い合わせを使えるぞ。",
+          reportMissingResultsText: "問い合わせがヒットするかしら？",
+          reportMissingResultsLinkText: "クリック応答"
         }
       }
     }

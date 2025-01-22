@@ -47,20 +47,20 @@ function getConfigObjectToExport(): {
   // 获取当前语言的IETF语言标签
   const ietfLangTag = ietfLanguageTagMapping[lang];
   const configVariable: UserConfig<DefaultTheme.Config> = defineConfig({
-    title: "慕讯公益加速器",
-    description: "慕讯公益加速器-官方网站，官方网站，慕讯公益加速器，采用开源，可以说是安全性拉满，专门针对网络游戏延迟优化，一键因网络问题造成的游戏卡顿、延迟、掉线、加载缓慢等一系列问题，完全免费无套路，游戏体验提升10000%，永久免费加速，为你提供更好的游戏操作体验，为游戏玩家解决延迟、掉线、卡机，高ping等网络问题，有效提升网络稳定性，极致降低延迟。",
+    title: "Muxun Public Benefit Accelerator",
+    description: "Mute Charity Accelerator - official websites, official websites, Mute Charity Accelerator, using open sources, which can be described as a security rushing, dedicated to network game delay optimization, one-click game carton, delays, breakdown, slow loading due to network problems, completely free of charge, game experience rises by 10000%, permanent free acceleration, better game operation experience for you and effective network stability for players to solve network problems such as delays, dropouts, cards, high-ping, etc.",
     head: [['meta', {
       property: 'og:locale',
       content: lang
     }], ['meta', {
       property: 'og:title',
-      content: '慕讯公益加速器 | 将免费进行到底'
+      content: "Muxun Public Benefit Accelerator | will go free to show"
     }], ['meta', {
       property: 'og:site_name',
-      content: '慕讯公益加速器'
+      content: "Muxun Public Benefit Accelerator"
     }], ['meta', {
       name: 'keywords',
-      content: '慕讯公益加速器,免费游戏加速器,免费加速器,加速器,游戏加速,网游加速器,游戏加速,英雄联盟,Steam,战网,Epic,Apex英雄,CSGO,PUBG,绝地求生,暗黑破坏神,英雄联盟,Valorant,GTA 5,永劫无间,电竞加速器,加速器福利,加速器口令码,免费加速器,公益加速器'
+      content: "Enemy the pro accelerator, free game accelerator, free accelerator, accelerator, game accelerator, web accelerator, game accelerator, game accelerator, Hero Alliance, Steam,War Network,Epic,Apex Hero,CSGO,PUBG for life, dark destruction of gods, Heroes, Valorant, GTA 5, eternal hijacking, electric accelerator, accelerator welfare, accelerator code, free accelerator, public benefit accelerator"
     }]],
     themeConfig: {
       nav: nav(),
@@ -72,30 +72,30 @@ function getConfigObjectToExport(): {
         //'/zh/reference/': { base: '/zh/reference/', items: sidebarReference() }
       },
       footer: {
-        message: `网页基于 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.${ietfLangTag}" target="_blank"><strong>CC BY-NC-SA 4.0</strong></a> 许可发布`,
-        copyright: `版权所有 © 2019-${new Date().getFullYear()} 慕讯`
+        message: `The web page is based on <a ref="https://creativeecommons.org/licenses/by-nc-sa/4.0/deed.${ietfLangTag}`,
+        copyright: `Copyright ©️ 2019-${new Date().getFullYear()} Ambient`
       },
       docFooter: {
-        prev: '上一页',
-        next: '下一页'
+        prev: "Previous",
+        next: "Next"
       },
       outline: {
-        label: '页面导航'
+        label: "Page navigation"
       },
       lastUpdated: {
-        text: '最后更新于',
+        text: "Last updated on",
         formatOptions: {
           dateStyle: 'short',
           timeStyle: 'medium'
         }
       },
-      langMenuLabel: '多语言',
-      returnToTopLabel: '回到顶部',
-      sidebarMenuLabel: '菜单',
-      darkModeSwitchLabel: '主题',
-      lightModeSwitchTitle: '切换到浅色模式',
-      darkModeSwitchTitle: '切换到深色模式',
-      skipToContentLabel: '跳转到内容'
+      langMenuLabel: "Multilingual",
+      returnToTopLabel: "Back to top",
+      sidebarMenuLabel: "menu",
+      darkModeSwitchLabel: "topic",
+      lightModeSwitchTitle: "Switch to light mode",
+      darkModeSwitchTitle: "Switch to dark mode",
+      skipToContentLabel: "Go to content"
     }
   });
   const result = ({} as { [key in ('chi' | 'zho' | 'eng' | 'jpn' | 'kor' | 'rus' | 'defaultConfig')]: UserConfig<DefaultTheme.Config> });
@@ -123,56 +123,56 @@ function getConfigObjectToExport(): {
 export default getConfigObjectToExport();
 function nav(): DefaultTheme.NavItem[] {
   return [{
-    text: '首页',
+    text: "Home",
     link: `/${lang}/`
   }, {
-    text: '下载',
+    text: "Download",
     link: `/${lang}/download/`
   }, {
-    text: '捐助',
+    text: "Donate",
     link: `/${lang}/donate/`
   }, {
-    text: '帮助文档',
+    text: "Help Documentation",
     link: `/${lang}/wiki/`
   }, {
-    text: '交流与反馈',
+    text: "Communication & Feedback",
     link: 'https://pd.qq.com/g/ii843tu61i'
   }, {
-    text: '翻译',
+    text: "Translate",
     items: [{
-      text: '中文界面',
+      text: "Chinese Interface",
       link: 'https://zh.crowdin.com/project/mxfree'
     }, {
-      text: '英文界面',
+      text: "English Interface",
       link: 'https://crowdin.com/project/mxfree'
     }]
   }];
 }
 function sidebarwiki(): DefaultTheme.SidebarItem[] {
   return [{
-    text: '简介',
+    text: "Introduction",
     collapsed: false,
     link: 'index'
   }, {
-    text: '基础问题',
+    text: "Basic issues",
     collapsed: false,
     items: [{
-      text: '安装与卸载',
+      text: "Install and uninstall",
       link: 'Install and Uninstall'
     }]
   }, {
-    text: '更多问题',
+    text: "More Questions",
     collapsed: false,
     items: [{
-      text: '软件问题',
+      text: "Software issues",
       link: 'Software'
     }, {
-      text: '硬件问题',
+      text: "Hardware Issues",
       link: 'Hardware'
     }]
   }, {
-    text: '聊天与反馈频道',
-    link: 'Chat with feedback'
+    text: "Chat & Feedback Channel",
+    link: "Chat with feed"
   }];
 }
 /*
@@ -276,42 +276,42 @@ const algoliaRootKey = algoliaKeyMapping[lang];
 // 直接导出带有动态键名的搜索配置
 export const search: DefaultTheme.AlgoliaSearchOptions['locales'] = {
   [algoliaRootKey]: {
-    placeholder: '搜索文档',
+    placeholder: "Search documentation",
     translations: {
       button: {
-        buttonText: '搜索文档',
-        buttonAriaLabel: '搜索文档'
+        buttonText: "Search documentation",
+        buttonAriaLabel: "Search documentation"
       },
       modal: {
         searchBox: {
-          resetButtonTitle: '清除查询条件',
-          resetButtonAriaLabel: '清除查询条件',
-          cancelButtonText: '取消',
-          cancelButtonAriaLabel: '取消'
+          resetButtonTitle: "Clear query condition",
+          resetButtonAriaLabel: "Clear query condition",
+          cancelButtonText: "Cancel",
+          cancelButtonAriaLabel: "Cancel"
         },
         startScreen: {
-          recentSearchesTitle: '搜索历史',
-          noRecentSearchesText: '没有搜索历史',
-          saveRecentSearchButtonTitle: '保存至搜索历史',
-          removeRecentSearchButtonTitle: '从搜索历史中移除',
-          favoriteSearchesTitle: '收藏',
-          removeFavoriteSearchButtonTitle: '从收藏中移除'
+          recentSearchesTitle: "Search History",
+          noRecentSearchesText: "No search history",
+          saveRecentSearchButtonTitle: "Save to Search History",
+          removeRecentSearchButtonTitle: "Remove from search history",
+          favoriteSearchesTitle: "Favorite",
+          removeFavoriteSearchButtonTitle: "Remove from favorites"
         },
         errorScreen: {
-          titleText: '无法获取结果',
-          helpText: '你可能需要检查你的网络连接'
+          titleText: "Unable to fetch results",
+          helpText: "You may need to check your internet connection"
         },
         footer: {
-          selectText: '选择',
-          navigateText: '切换',
-          closeText: '关闭',
-          searchByText: '搜索提供者'
+          selectText: "Select",
+          navigateText: "Toggle",
+          closeText: "Close",
+          searchByText: "Search Providers"
         },
         noResultsScreen: {
-          noResultsText: '无法找到相关结果',
-          suggestedQueryText: '你可以尝试查询',
-          reportMissingResultsText: '你认为该查询应该有结果？',
-          reportMissingResultsLinkText: '点击反馈'
+          noResultsText: "Could not find relevant results",
+          suggestedQueryText: "You can try to query",
+          reportMissingResultsText: "Do you think the query should have results?",
+          reportMissingResultsLinkText: "Click Feedback"
         }
       }
     }

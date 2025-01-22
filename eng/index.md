@@ -17,7 +17,7 @@ hero:
       link: ./donate
 features:
   - title: Support platform acceleration
-    details: STEAM、ORIGIN、UPLAY、EPIC
+    details: Steam,Orign,Uplay,Epic
   - title: Support for various devices acceleration
     details: PC、Switch、PS4、PS5、XBox
   - title: Help us translate together
