@@ -46,21 +46,21 @@ const index = [
 
 # Help Documentation
 
-## 说明
+## Note
 
-> - 此页面是为了各位用户更好的使用体验而创建
-> - 后续此功能将会陆续更新所有高频遇到的问题
-> - 您可以使用侧边栏跳转查找解决的遇到的问题
-> - 您也可以使用上方的搜索框进行问题搜索查看
+> - This page is created for better user experience
+> - Follow this feature will update all HF problems
+> - You can use sidebar to jump to find a problem
+> - You can also view questions using the search box above
 
-## 慕讯团队
+## Mute Teams
 
-### 主要成员
+### Main members
 
 <VPTeamMembers size="small" :members="index" />
 
-### 比特迷宫
+### Bit Maze
 
-:::tip 提示
-正在陆续添加中
+:::tip Tips
+Adding successively
 :::

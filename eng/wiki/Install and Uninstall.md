@@ -2,110 +2,130 @@
 
 ---
 
-## 安装
+## Install
 
 ### Windows
 
-:::warning 提示
-下载问题可查看 [官网问题合集](#官网问题合集)
+:::warning Tips
+Download the questions for more information: [Collection of questions on the official website](#官网问题合集)
 :::
 
-> 1. 在[官网](https://mxfree.ao-x.ac.cn/)下载[客户端](https://registry.npmmirror.com/@muxunorg/mxorg-dl/latest/files/mxfree.exe)`exe`文件。
-> 2. 打开`exe`文件进行安装。
-> 3. 桌面找到慕讯公益加速器打开即可。
+> 1. Download[client](https://registry.npmmirror.com/@muxunorg/mxorg-dl/latest/files/mxfree.exe) `exe` in[Official website](https://mxfree.ao-x.ac.cn/).
+> 2. Open the `exe` file for installation.
+> 3. Desktop finds admin pro accelerator to open.
 
 ### MacOS
 
-:::danger 暂未提供
-目前慕讯正在筹划2.0版本，将在2.0版本进行支持。
+:::danger Not yet provided
+Version 2.0 is currently being prepared and will be supported in version 2.0.
 :::
 
 ### Linux
 
-:::danger 暂未提供
-目前慕讯正在筹划2.0版本，将在2.0版本进行支持。
+:::danger Not yet provided
+Version 2.0 is currently being prepared and will be supported in version 2.0.
 :::
 
 ### HarmonyOS
 
-:::danger 暂未提供
-目前慕讯正在筹划HarmonyOS版本，将在未来进行支持。
+:::danger Not yet provided
+A version of HarmonyOS is currently being prepared and will be supported in the future.
 :::
 
 ### Android
 
-:::danger 暂未提供
-目前慕讯正在筹划Android版本，将在未来进行支持。
+:::danger Not yet provided
+The Android version is currently being prepared and will be supported in the future.
 :::
 
 ### iOS
 
-:::danger 暂未提供
-目前慕讯正在筹划iOS版本，将在未来进行支持。
+:::danger Not yet provided
+The iOS version is currently being prepared and will be supported in the future.
 :::
 
 ---
 
-## 卸载
+## Uninstall
 
 ### Windows
 
-:::warning 提示
-慕讯目前为纯绿色运行，不对系统注册表进行修改。
+:::warning Tips
+No changes are made to the system registry to admire the current purely green application.
 :::
 
-> 1. 打开慕讯安装目录。
-> 2. 删除整个慕讯所在目录。
-> 3. 删除慕讯桌面图标。
+> 1. Open the admuket installation directory.
+> 2. Delete the entire admin directory.
+> 3. Remove admin desktop icon.
 
 ### MacOS
 
-:::danger 暂未提供
-目前慕讯正在筹划2.0版本，将在2.0版本进行支持。
+:::danger Not yet provided
+Version 2.0 is currently being prepared and will be supported in version 2.0.
 :::
 
 ### Linux
 
-:::danger 暂未提供
-目前慕讯正在筹划2.0版本，将在2.0版本进行支持。
+:::danger Not yet provided
+Version 2.0 is currently being prepared and will be supported in version 2.0.
 :::
 
 ### HarmonyOS
 
-:::danger 暂未提供
-目前慕讯正在筹划HarmonyOS版本，将在未来进行支持。
+:::danger Not yet provided
+A version of HarmonyOS is currently being prepared and will be supported in the future.
 :::
 
 ### Android
 
-:::danger 暂未提供
-目前慕讯正在筹划Android版本，将在未来进行支持。
+:::danger Not yet provided
+The Android version is currently being prepared and will be supported in the future.
 :::
 
 ### iOS
 
-:::danger 暂未提供
-目前慕讯正在筹划iOS版本，将在未来进行支持。
+:::danger Not yet provided
+The iOS version is currently being prepared and will be supported in the future.
 :::
 
 ---
 
-## 官网问题合集
+## Set of official web questions
 
-### 无法下载
+### Browser tips
 
-> #### 更换阿里DNS
+#### There are currently insufficient funds to purchase nearly 10,000 EV certificates for a year and the following problems may arise.
+
+> #### EDGE Tips
+>
+> ##### Normally mxfree.exe.Please make sure mxfree.exe is trusted before opening.
+>
+> - `Right mouse button` can be used in the prompt to click `Keep `\\\.
+> - If you do not trust the `or ``admiration``, you can follow the` principle of not downloading\`\`.
+
+### Poisonous Software
+
+#### There are currently insufficient funds to purchase nearly 10,000 EV certificates for a year and the following problems may arise.
+
+> #### Anti-toxic software such as 360 misreporting mxfree.exe.
+>
+> - The `whitelisted ```` can be set in the antidote software, or `close\`\` in use.
+> - If you do not trust the `or ``admiration``, you can follow the` principle of not downloading\`\`.
+
+### Couldn't download
+
+> #### Change AliDNS
 >
 > - ipv4 `223.5.5.5` `223.6.6.6`
-> - ipv6 `2400:3200::1` `2400:3200:baba::1`
+> - ipv6 `2400:3200:1:1`` `2400:3200:bab:1:1\`\`
 
-> #### 更换网站语言
+> #### Change Site Language
 >
-> 1. 点开网站右上角语言切换
-> 2. 使用中文以外的语言进行下载
-> 3. 可以使用的语言为 `English` `日本語` `한국어` `Русский`
+> 1. Tap to switch in top right corner language
+> 2. Download in languages other than Chinese
+> 3. The language that can be used is `English```` `Japanese language \`\`\`\`\`\`\`\`\`\`citid` ```cities` \`\`\`citial' characterisation ``sic' `sic' ``sic' \`.
 
-> #### 点击下方链接
+> #### Click below to link
 >
-> - [中国节点](https://registry.npmmirror.com/@muxunorg/mxorg-dl/latest/files/mxfree.exe)
-> - [全球节点](https://unpkg.com/@muxunorg/mxorg-dl@latest/mxfree.exe)
+> - [中国节点](https://registry.npmirror.com/@muxun.org/mxorg-dl/ latest/files/mxfree.exe)
+> - [Global Nodes](https://unpkg.com/@muxun.org/mxorg-dl@latest/mxfree.exe)

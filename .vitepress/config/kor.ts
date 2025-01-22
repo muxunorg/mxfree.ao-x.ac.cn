@@ -47,7 +47,7 @@ function getConfigObjectToExport(): {
   // 获取当前语言的IETF语言标签
   const ietfLangTag = ietfLanguageTagMapping[lang];
   const configVariable: UserConfig<DefaultTheme.Config> = defineConfig({
-    title: "慕讯公益加速器",
+    title: "무쉰 공익 가속기",
     description: "慕讯公益加速器-官方网站，官方网站，慕讯公益加速器，采用开源，可以说是安全性拉满，专门针对网络游戏延迟优化，一键因网络问题造成的游戏卡顿、延迟、掉线、加载缓慢等一系列问题，完全免费无套路，游戏体验提升10000%，永久免费加速，为你提供更好的游戏操作体验，为游戏玩家解决延迟、掉线、卡机，高ping等网络问题，有效提升网络稳定性，极致降低延迟。",
     head: [['meta', {
       property: 'og:locale',
@@ -57,10 +57,10 @@ function getConfigObjectToExport(): {
       content: '慕讯公益加速器 | 将免费进行到底'
     }], ['meta', {
       property: 'og:site_name',
-      content: '慕讯公益加速器'
+      content: "무쉰 공익 가속기"
     }], ['meta', {
       name: 'keywords',
-      content: '慕讯公益加速器,免费游戏加速器,免费加速器,加速器,游戏加速,网游加速器,游戏加速,英雄联盟,Steam,战网,Epic,Apex英雄,CSGO,PUBG,绝地求生,暗黑破坏神,英雄联盟,Valorant,GTA 5,永劫无间,电竞加速器,加速器福利,加速器口令码,免费加速器,公益加速器'
+      content: "Muxun 공공 복지 가속기, 무료 게임 가속기, 무료 가속기, 가속기, 게임 가속기, 온라인 게임 가속기, 게임 가속기, League of Legends, Steam, Battle.net, Epic, Apex Legends, CSGO, PUBG, PlayerUnknown's Battlegrounds, Diablo, League of 레전드, 발로란트, GTA 5, 영원한 재난, e스포츠 액셀러레이터, 액셀러레이터 혜택, 액셀러레이터 비밀번호 코드, 무료 액셀러레이터, 공익 액셀러레이터"
     }]],
     themeConfig: {
       nav: nav(),
@@ -80,7 +80,7 @@ function getConfigObjectToExport(): {
         next: '下一页'
       },
       outline: {
-        label: '页面导航'
+        label: "웹페이지 탐색"
       },
       lastUpdated: {
         text: '最后更新于',
@@ -123,22 +123,22 @@ function getConfigObjectToExport(): {
 export default getConfigObjectToExport();
 function nav(): DefaultTheme.NavItem[] {
   return [{
-    text: '首页',
+    text: "처음",
     link: `/${lang}/`
   }, {
-    text: '下载',
+    text: "다운로드",
     link: `/${lang}/download/`
   }, {
-    text: '捐助',
+    text: "기부",
     link: `/${lang}/donate/`
   }, {
-    text: '帮助文档',
+    text: "가이드 참고하기",
     link: `/${lang}/wiki/`
   }, {
     text: '交流与反馈',
     link: 'https://pd.qq.com/g/ii843tu61i'
   }, {
-    text: '翻译',
+    text: "번역하다",
     items: [{
       text: '中文界面',
       link: 'https://zh.crowdin.com/project/mxfree'
@@ -286,8 +286,8 @@ export const search: DefaultTheme.AlgoliaSearchOptions['locales'] = {
         searchBox: {
           resetButtonTitle: '清除查询条件',
           resetButtonAriaLabel: '清除查询条件',
-          cancelButtonText: '取消',
-          cancelButtonAriaLabel: '取消'
+          cancelButtonText: "취소",
+          cancelButtonAriaLabel: "취소"
         },
         startScreen: {
           recentSearchesTitle: '搜索历史',

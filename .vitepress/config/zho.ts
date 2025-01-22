@@ -135,7 +135,7 @@ function nav(): DefaultTheme.NavItem[] {
     text: "幫助文件",
     link: `/${lang}/wiki/`
   }, {
-    text: '交流与反馈',
+    text: "交流與反饋",
     link: 'https://pd.qq.com/g/ii843tu61i'
   }, {
     text: "翻譯",
