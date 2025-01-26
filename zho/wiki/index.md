@@ -24,6 +24,24 @@ const index = [
 
 const BitMaze = [
   {
+    avatar: '/img/Never again-avatar.jpg',
+    name: 'Never again',
+    title: '主要成员',
+    links: [
+      //{ icon: 'github', link: 'https://github.com/yyx990803' },
+      { icon: 'bilibili', link: 'https://space.bilibili.com/341626328' }
+    ]
+  },
+  {
+    avatar: 'https://github.com/ao-x.png',
+    name: '梦文博',
+    title: '主要成员',
+    links: [
+      { icon: 'github', link: 'https://github.com/ao-x' },
+      { icon: 'bilibili', link: 'https://space.bilibili.com/12825362' }
+    ]
+  }，
+  {
     avatar: 'https://github.com/popocheam.png',
     name: 'PopQ',
     title: '团队成员',
