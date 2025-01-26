@@ -40,7 +40,7 @@ const BitMaze = [
       { icon: 'github', link: 'https://github.com/ao-x' },
       { icon: 'bilibili', link: 'https://space.bilibili.com/12825362' }
     ]
-  }，
+  },
   {
     avatar: 'https://github.com/popocheam.png',
     name: 'PopQ',
