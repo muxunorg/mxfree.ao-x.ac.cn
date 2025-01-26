@@ -5,16 +5,16 @@ const index = [
   {
     avatar: '/img/Never again-avatar.jpg',
     name: 'Never again',
-    title: '主要成員',
+    title: '主要成员',
     links: [
-      /*{ icon: 'github', link: 'https://github.com/yyx990803' },*/
+      //{ icon: 'github', link: 'https://github.com/yyx990803' },
       { icon: 'bilibili', link: 'https://space.bilibili.com/341626328' }
     ]
   },
   {
-    avatar: '/img/MengWenBo-avatar.jpg',
-    name: '夢文博',
-    title: '主要成員',
+    avatar: 'https://github.com/ao-x.png',
+    name: '梦文博',
+    title: '主要成员',
     links: [
       { icon: 'github', link: 'https://github.com/ao-x' },
       { icon: 'bilibili', link: 'https://space.bilibili.com/12825362' }
@@ -22,17 +22,35 @@ const index = [
   }
 ]
 
-/*const BitMaze = [
+const BitMaze = [
   {
-    avatar: 'https://github.com/yyx990803.png',
-    name: 'Evan You',
-    title: 'Creator',
+    avatar: '/img/Never again-avatar.jpg',
+    name: 'Never again',
+    title: '主要成员',
     links: [
-      { icon: 'github', link: 'https://github.com/yyx990803' },
-      { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
+      //{ icon: 'github', link: 'https://github.com/yyx990803' },
+      { icon: 'bilibili', link: 'https://space.bilibili.com/341626328' }
     ]
   },
   {
+    avatar: 'https://github.com/ao-x.png',
+    name: '梦文博',
+    title: '主要成员',
+    links: [
+      { icon: 'github', link: 'https://github.com/ao-x' },
+      { icon: 'bilibili', link: 'https://space.bilibili.com/12825362' }
+    ]
+  },
+  {
+    avatar: 'https://github.com/popocheam.png',
+    name: 'PopQ',
+    title: '团队成员',
+    links: [
+      { icon: 'github', link: 'https://github.com/popocheam' },
+      //{ icon: 'twitter', link: 'https://twitter.com/youyuxi' }
+    ]
+  },
+  /*{
     avatar: 'https://github.com/kiaking.png',
     name: 'Kia King Ishii',
     title: 'Developer',
@@ -40,8 +58,8 @@ const index = [
       { icon: 'github', link: 'https://github.com/kiaking' },
       { icon: 'twitter', link: 'https://twitter.com/KiaKing85' }
     ]
-  }
-]*/
+  }*/
+]
 </script>
 
 # 幫助文件
@@ -61,6 +79,8 @@ const index = [
 
 ### 比特迷宮
 
+<VPTeamMembers size="small" :members="BitMaze" />
+
 :::tip 提示
-正在陸續添加中
+正在陆续添加中
 :::
