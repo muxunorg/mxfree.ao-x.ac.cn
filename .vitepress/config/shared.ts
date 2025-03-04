@@ -79,7 +79,7 @@ export const shared = defineConfig({
         ['meta', { property: 'og:type', content: 'website' }],
         ['meta', { property: 'og:url', content: 'https://mxfree.ao-x.ac.cn/' }],
         ['meta', { property: 'og:image', content: 'https://mxfree.ao-x.ac.cn/vitepress-og.jpg' }],
-        ['script', {type : 'text/javascript', src: '/js/bd1.js', async: '' }],
+        ['script', {type : 'text/javascript', src: '/js/clarity.js' }],
     ],
     themeConfig: {
         logo: '/img/logo.avif',
