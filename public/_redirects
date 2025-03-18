@@ -1,6 +1,9 @@
-/forme /donate.html 301
-/mx_service_agreement /download.html 301
+/forme /chi/donate 301
+/mx_service_agreement /chi/download 301
 / /chi 301
+/donate /chi/donate 301
+/download /chi/download 301
+/beta /chi/beta 301
 /zh_TW /zho 301
 /en_US /eng 301
 /ja_JP /jpn 301
