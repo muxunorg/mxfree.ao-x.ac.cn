@@ -81,6 +81,6 @@ const BitMaze = [
 
 <VPTeamMembers size="small" :members="BitMaze" />
 
-:::tip 提示
-正在陆续添加中
+:::tip ヒント
+追加中
 :::
