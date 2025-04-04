@@ -5,7 +5,7 @@ const index = [
   {
     avatar: '/img/Never again-avatar.jpg',
     name: 'Never again',
-    title: '主要成员',
+    title: '主要成員,
     links: [
       //{ icon: 'github', link: 'https://github.com/yyx990803' },
       { icon: 'bilibili', link: 'https://space.bilibili.com/341626328' }
@@ -13,8 +13,8 @@ const index = [
   },
   {
     avatar: 'https://github.com/ao-x.png',
-    name: '梦文博',
-    title: '主要成员',
+    name: '夢文博',
+    title: '主要成員',
     links: [
       { icon: 'github', link: 'https://github.com/ao-x' },
       { icon: 'bilibili', link: 'https://space.bilibili.com/12825362' }
@@ -26,7 +26,7 @@ const BitMaze = [
   {
     avatar: '/img/Never again-avatar.jpg',
     name: 'Never again',
-    title: '主要成员',
+    title: '主要成員',
     links: [
       //{ icon: 'github', link: 'https://github.com/yyx990803' },
       { icon: 'bilibili', link: 'https://space.bilibili.com/341626328' }
@@ -34,8 +34,8 @@ const BitMaze = [
   },
   {
     avatar: 'https://github.com/ao-x.png',
-    name: '梦文博',
-    title: '主要成员',
+    name: '夢文博',
+    title: '主要成員',
     links: [
       { icon: 'github', link: 'https://github.com/ao-x' },
       { icon: 'bilibili', link: 'https://space.bilibili.com/12825362' }
@@ -44,7 +44,7 @@ const BitMaze = [
   {
     avatar: 'https://github.com/popocheam.png',
     name: 'PopQ',
-    title: '团队成员',
+    title: '團隊成員',
     links: [
       { icon: 'github', link: 'https://github.com/popocheam' },
       //{ icon: 'twitter', link: 'https://twitter.com/youyuxi' }
@@ -82,5 +82,5 @@ const BitMaze = [
 <VPTeamMembers size="small" :members="BitMaze" />
 
 :::tip 提示
-正在陆续添加中
+正在陸續添加中
 :::

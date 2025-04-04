@@ -26,12 +26,5 @@ features:
 
 ## Beta Description
 
-- Version relationship 1.0.0 > 1.0.0.0-beta
+- Version 1.0.0-rc.1(1.0.0.0.0) > 1.0.0-beta.1(1.0.0.0.0)
 - Use this to follow the End-User License Agreement
-
-## Beta changelog
-
-- 1.1.34 - beta 2024-06-29
-- Optimize partial interfaces
-- Optimize some features
-- Optimize bottom architecture

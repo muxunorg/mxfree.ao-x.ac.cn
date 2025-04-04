@@ -51,16 +51,16 @@ features:
 > #### Prohibition by users and responsibilities
 >
 > 1. Users may use this software under this agreement subject to compliance with laws and regulations.User may not perform any of the following actions：
->    1. A third party compatible software, system login or use this software and services through non-admirable, or a plugin that has been developed, authorized, or authenticated for this software and services;
->    2. Delete copyrighted information, content on this software and other copies;
->    3. Reverse engineering, backward compilation, backward compilation, etc.;
->    4. Information related to this software is carried out without the prior express consent of admirability, including, but not limited to, the following acts of：use, rent, loan, copy, modification, link, reprinting, compilation, publication, creation of mirror sites, unauthorized use of this software for the development of derivative products, works, services, plugins, outreach, compatibility, interconnection etc.
->    5. The software is used to publish, transmit, disseminate and store content that is contrary to national law, endangers national security, unity of the country, social stability, insults to defamation, obscenity, violence and other violations of national laws and regulations.
->    6. This software is used to publish, transmit, disseminate and store content that infringes on the legal rights of others such as intellectual property rights, trade secrets, etc.
->    7. Performing acts against the security of computer networks, including but not limited to：using unauthorized data or entering unauthorized server/accounts; unauthorised access to public computer networks or other persons' computer systems and deleting, modifying, adding storage of information; unauthorized, performing or attempting to detect, scan or test weaknesses of the software system or network or other acts likely to disrupt network security; performing or attempting interference, disruption of normal operation of the software system or website, dissemination of malicious programs or viruses, and other acts that could disrupt normal network information services; and falsifying TCP/IP data package names or partial names.
->    8. Other services provided through the use of the software and the use of other services in an unlawful manner, for unlawful purposes, or in a manner inconsistent with this Agreement.
+>  1. A third party compatible software, system login or use this software and services through non-admirable, or a plugin that has been developed, authorized, or authenticated for this software and services;
+>  2. Delete copyrighted information, content on this software and other copies;
+>  3. Reverse engineering, backward compilation, backward compilation, etc.;
+>  4. Information related to this software is carried out without the prior express consent of admirability, including, but not limited to, the following acts of：use, rent, loan, copy, modification, link, reprinting, compilation, publication, creation of mirror sites, unauthorized use of this software for the development of derivative products, works, services, plugins, outreach, compatibility, interconnection etc.
+>  5. The software is used to publish, transmit, disseminate and store content that is contrary to national law, endangers national security, unity of the country, social stability, insults to defamation, obscenity, violence and other violations of national laws and regulations.
+>  6. This software is used to publish, transmit, disseminate and store content that infringes on the legal rights of others such as intellectual property rights, trade secrets, etc.
+>  7. Performing acts against the security of computer networks, including but not limited to：using unauthorized data or entering unauthorized server/accounts; unauthorised access to public computer networks or other persons' computer systems and deleting, modifying, adding storage of information; unauthorized, performing or attempting to detect, scan or test weaknesses of the software system or network or other acts likely to disrupt network security; performing or attempting interference, disruption of normal operation of the software system or website, dissemination of malicious programs or viruses, and other acts that could disrupt normal network information services; and falsifying TCP/IP data package names or partial names.
+>  8. Other services provided through the use of the software and the use of other services in an unlawful manner, for unlawful purposes, or in a manner inconsistent with this Agreement.
 > 2. The user expressly agrees here that the following actions are all those that seriously undermine the rights and interests of the message:：
->    1. Workroom bulk registration, use of account acceleration, triggering game IP blockers or other exceptions;
+>  1. Workroom bulk registration, use of account acceleration, triggering game IP blockers or other exceptions;
 > 3. The user shall be held fully liable for all liabilities arising from his or her use in breach of the agreement and shall not be associated with the admonition and cooperation unit; he or she shall indemnify him or her if he or she causes loss to the company or partner of which he or she is a member.At the same time, it admits the right to use measures including, but not limited to, clearing improper gains, suspending licensing, suspending the provision of services, restricting use, removing user accounts and holding them accountable, without prior notification of the user's behaviour.
 
 > #### Installation, use, upgrading and termination of software
@@ -80,21 +80,21 @@ features:
 >
 > 1. Adjust respect and protect the privacy of user's information resources.Admittedly, reasonable measures are taken to protect users' information resources and not to disclose users' information resources to third parties other than cooperating units without the consent of the user, except for reasons such as laws or government requests or user consent.However, unless the user chooses or consents to registration or unless there is a separate agreement between the user and the admiration and partner for the disclosure or use of the user's information resources, and the user should bear any risk that may arise and admittedly not be held accountable.
 > 2. Mute requires user information resources： for the following reasons
->    1. Execute software validation services.
->    2. Execute the software upgrade service.
->    3. Provides software functionality services.
->    4. Improve user security and provide customer support.
->    5. When users use a specific function of admitting software or when a user requests a particular service from a user or partner to provide a particular service, they are required to provide the user information to a third party to which they relate.
->    6. Other benefits in improving software functionality and user software experience.
+>  1. Execute software validation services.
+>  2. Execute the software upgrade service.
+>  3. Provides software functionality services.
+>  4. Improve user security and provide customer support.
+>  5. When users use a specific function of admitting software or when a user requests a particular service from a user or partner to provide a particular service, they are required to provide the user information to a third party to which they relate.
+>  6. Other benefits in improving software functionality and user software experience.
 > 3. Enjoy collected information that includes user active submissions and automatically collected log information：
->    1. Users fill in the information provided while registering, e.g.：account, phone number, email number, network information, etc.
->    2. Information uploaded by the user while using the service, e.g.：device information, software information, network information, service log, software crash related information, etc.
->    3. Information submitted by users via technician service or when they participate in events.
+>  1. Users fill in the information provided while registering, e.g.：account, phone number, email number, network information, etc.
+>  2. Information uploaded by the user while using the service, e.g.：device information, software information, network information, service log, software crash related information, etc.
+>  3. Information submitted by users via technician service or when they participate in events.
 > 4. While users understand that admitting information will do their utmost to protect computer resources and the privacy and integrity of computer communications, users acknowledge and agree that it does not provide assurance in this regard.User agreed with：
->    1. Accepts the Terms of Service issued by this Agreement and admire the publication of the message;
->    2. Oral or written indication by the user by e-mail, telephone, fax, instant message, etc.;
->    3. The agreement or service declaration contains a default consent clause which users have no objection.
->    4. Other ways of admiration and user approval.
+>  1. Accepts the Terms of Service issued by this Agreement and admire the publication of the message;
+>  2. Oral or written indication by the user by e-mail, telephone, fax, instant message, etc.;
+>  3. The agreement or service declaration contains a default consent clause which users have no objection.
+>  4. Other ways of admiration and user approval.
 > 5. Admitted reserves the right to disclose, at any time, any information as required by applicable laws or policies or to edit, refuse to post or delete any information or information in whole or in part by a discretionary decision of admiration.
 
 > #### Legal liability and force majeure clauses
