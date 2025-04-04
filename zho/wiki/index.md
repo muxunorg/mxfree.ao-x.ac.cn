@@ -5,7 +5,7 @@ const index = [
   {
     avatar: '/img/Never again-avatar.jpg',
     name: 'Never again',
-    title: '主要成員,
+    title: '主要成員',
     links: [
       //{ icon: 'github', link: 'https://github.com/yyx990803' },
       { icon: 'bilibili', link: 'https://space.bilibili.com/341626328' }
