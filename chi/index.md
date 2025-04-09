@@ -20,7 +20,7 @@ features:
   - title: 支持各大平台加速
     details: STEAM、ORIGIN、UPLAY、EPIC
   - title: 支持各类设备加速
-    details: PC、Switch、PS4、PS5、XBox
+    details: PC、Switch、Switch2、PS4、PS5、XBox
   - title: 帮助我们一起翻译 
     details: <a title="Crowdin" target="_blank" href="https://zh.crowdin.com/project/mxfree"><img src="https://badges.crowdin.net/mxfree/localized.svg"></a>
 ---

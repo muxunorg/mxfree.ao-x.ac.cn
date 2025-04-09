@@ -19,7 +19,7 @@ features:
   - title: Support platform acceleration
     details: Steam,Orign,Uplay,Epic
   - title: Support for various devices acceleration
-    details: PC、Switch、PS4、PS5、XBox
+    details: PC、Switch、Switch2、PS4、PS5、XBox
   - title: Help us translate together
     details: <a title="Crowdin" target="_blank" href="https://crowdin.com/project/mxfree"><img src="https://badges.crowdin.net/mxfree/localized.svg"></a>
 ---
