@@ -19,7 +19,7 @@ features:
   - title: 様々なプラットフォームブーストをサポートします
     details: STEAM、ORIGIN、UPLAY、EPIC
   - title: 各種デバイスブーストをサポートする
-    details: PC、Switch、PS4・PS5・XBox
+    details: PC、Switch、Switch2、PS4、PS5、XBox
   - title: 翻訳に協力する
     details: <a title="Crowdin" target="_blank" href="https://crowdin.com/project/mxfree"><img src="https://badges.crowdin.net/mxfree/localized.svg"></a>
 ---

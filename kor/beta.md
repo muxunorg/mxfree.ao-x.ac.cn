@@ -19,7 +19,7 @@ features:
   - title: 모든 주요 플랫폼에서 가속 지원
     details: STEAM、ORIGIN、UPLAY、EPIC
   - title: 다양한 장치의 가속 지원
-    details: PC、Switch、PS4、PS5、XBox
+    details: PC、Switch、Switch2、PS4、PS5、XBox
   - title: 함께 번역할 수 있도록 도와주세요
     details: <a title="Crowdin" target="_blank" href="https://crowdin.com/project/mxfree"><img src="https://badges.crowdin.net/mxfree/localized.svg"></a>
 ---
