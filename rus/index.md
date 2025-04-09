@@ -19,7 +19,7 @@ features:
   - title: Поддержка ускорения на всех основных платформах
     details: STEAM、ORIGIN、UPLAY、EPIC
   - title: Поддержка ускорения различных устройств
-    details: PC、Switch、PS4、PS5、XBox
+    details: PC、Switch、Switch2、PS4、PS5、XBox
   - title: Помогите нам перевести вместе
     details: <a title="Crowdin" target="_blank" href="https://crowdin.com/project/mxfree"><img src="https://badges.crowdin.net/mxfree/localized.svg"></a>
 ---
