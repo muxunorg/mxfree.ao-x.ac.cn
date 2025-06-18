@@ -6,14 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9267582c-4676-49ce-87d4-7d80fc65f5f2" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/astro.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/astro.config.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/docs/fb.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/docs/fb.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/docs/index.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/docs/index.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/docs/privacy/20250518.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/docs/privacy/20250518.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/docs/privacy/latest.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/docs/privacy/latest.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/docs/thanks.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/docs/thanks.mdx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,6 +121,7 @@
       <workItem from="1750222392023" duration="11000" />
       <workItem from="1750282735506" duration="142000" />
       <workItem from="1750282907423" duration="12000" />
+      <workItem from="1750284232234" duration="429000" />
     </task>
     <servers />
   </component>

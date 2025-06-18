@@ -49,12 +49,30 @@ export default defineConfig({
 						href: '/sitemap-index.xml',
 					},
 				},
+				// Clarity 脚本
 				{
 					tag: 'script',
 					attrs: {
 						src: '/js/clarity.js',
+						async: true,
 					},
 				},
+				// Google Analytics 脚本
+				{
+					tag: 'script',
+					attrs: {
+						src: 'https://www.googletagmanager.com/gtag/js?id=G-86FC4CXBG1',
+						async: true,
+					},
+				},
+				// Google Analytics 的初始化代码
+				{
+					tag: 'script',
+					attrs: {
+						src: '/js/analytics.js',
+						async: true,
+					},
+				}
 			],
 			lastUpdated: false, // 控制页脚是否显示页面上次更新的时间
 			pagination: false, // 定义页脚是否应包含上一页和下一页的链接
