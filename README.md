@@ -1,21 +1,16 @@
-# Starlight Starter Kit: Basics
+# mxfree-Web
+
+## 幕讯公益加速器-将免费进行到底
+
+## 项目基于
 
 [![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
 
-```
-pnpm create astro@latest -- --template starlight
-```
+---
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/starlight/tree/main/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/starlight/tree/main/examples/basics)
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/withastro/starlight&create_from_path=examples/basics)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwithastro%2Fstarlight%2Ftree%2Fmain%2Fexamples%2Fbasics&project-name=my-starlight-docs&repository-name=my-starlight-docs)
+## 🚀 项目结构
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro + Starlight project, you'll see the following folders and files:
+在 Astro + Starlight 项目中，将看到以下文件夹和文件：
 
 ```
 .
@@ -30,25 +25,38 @@ Inside of your Astro + Starlight project, you'll see the following folders and f
 └── tsconfig.json
 ```
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
+Starlight 在 `src/content/docs/` 目录中查找 `.md` 和 `.mdx` 文件。
 
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
+每个文件都基于其文件名显示为一条路径。
 
-Static assets, like favicons, can be placed in the `public/` directory.
 
-## 🧞 Commands
+图片可以添加到 `src/assets/` 并通过相对链接嵌入到 Markdown 中。
 
-All commands are run from the root of the project, from a terminal:
+静态资产， 例如图标，都可以放在 `public/` 目录中。
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
+## 🧞 指令
 
-## 👀 Want to learn more?
+所有命令都是从项目根目录的终端运行的：
 
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+**由于 Starlight 是 beta 软件，所以会经常更新和改进。**
+
+**请务必定期更新 Starlight！**
+
+| 命令                          | 运行                                   |
+|:----------------------------|:-------------------------------------|
+| `pnpm install`              | 安装依赖项                                |
+| `pnpm dlx @astrojs/upgrade` | 更新 Starlight                         |
+| `pnpm dev`                  | 在 `localhost:4321` 上启动本地开发服务器        |
+| `pnpm build`                | 构建站点到 `./dist/` 目录                   |
+| `pnpm preview`              | 在部署之前在本地预览构建                         |
+| `pnpm astro ...`            | 运行CLI命令 如 `astro add`, `astro check` |
+| `pnpm astro -- --help`      | 获取使用 Astro CLI 的帮助                   |
+
+## 👀 想了解更多吗？
+
+查看 [Starlight’s docs](https://starlight.astro.build/)，阅读 [the Astro documentation](https://docs.astro.build)，或者跳转到 [Astro Discord server](https://astro.build/chat)服务器。
+
+## 贡献者
+<a href="https://github.com/muxunorg/mxfree.ao-x.ac.cn/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=muxunorg/mxfree.ao-x.ac.cn" alt="特别感谢的贡献者"/>
+</a>
