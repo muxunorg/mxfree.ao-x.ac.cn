@@ -1,0 +1,54 @@
+---
+title: 首页
+description: 慕讯公益加速器-官方网站
+tableOfContents: false
+banner:
+  content: |
+    幕讯公益加速器官方网站焕新
+hero:
+  title: 慕讯公益加速器
+  tagline: 将免费进行到底
+  image:
+    alt: 一个闪闪发光、色彩鲜艳的 logo
+    dark: ../../assets/logo.svg
+    light: ../../assets/logo.svg
+  actions:
+    - text: 立即下载
+      link: /dl/rc
+      icon: right-arrow
+    - text: 捐助我们
+      link: https://afdian.com/a/mengwenbohh
+      icon: external
+      variant: minimal
+---
+
+import { ShowcaseProfile } from 'starlight-showcases'
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid stagger>
+    <Card title="全面系统支持" icon="open-book">
+        从经典XP到最新Windows 12，全系列兼容支持
+    </Card>
+    <Card title="主流平台加速" icon="list-format">
+        Steam、Origin、Uplay、Epic等平台极速连接
+    </Card>
+    <Card title="全设备覆盖" icon="laptop">
+        PC、Switch、PS、Xbox全系列设备畅快体验
+    </Card>
+    <Card title="极速网络体验" icon="rocket">
+        智能路由优化，游戏延迟降低可以达到60%以上
+    </Card>
+</CardGrid>
+
+## 特别感谢
+
+<ShowcaseProfile
+    entries={[
+        {
+            name: '云上翱祥 | AO-X',
+            description: '欢迎来到我们的数字桥梁 | 致力于以创新技术赋能公益',
+            picture: import('../../assets/ao-x.svg'),
+            href: 'https://www.ao-x.cn',
+            },
+    ]}
+/>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_2" data-name="图层 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 127 92">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#_未命名的渐变_49);
+      }
+
+      .cls-2 {
+        fill: url(#_未命名的渐变_50);
+      }
+    </style>
+    <linearGradient id="_未命名的渐变_49" data-name="未命名的渐变 49" x1="63.51" y1="37.34" x2="63.51" y2="78.9" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0" stop-color="#f6f6f6"/>
+      <stop offset="0" stop-color="#e09c1f"/>
+      <stop offset="0" stop-color="#dc6e21"/>
+      <stop offset="0" stop-color="#d94a23"/>
+      <stop offset="0" stop-color="#d93d24"/>
+      <stop offset="0" stop-color="#d93d24"/>
+    </linearGradient>
+    <linearGradient id="_未命名的渐变_50" data-name="未命名的渐变 50" x1="42.21" y1="2.3" x2="69.71" y2="104.91" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0" stop-color="#f6f6f6"/>
+      <stop offset="0" stop-color="#e09c1f"/>
+      <stop offset=".24" stop-color="#dc6e21"/>
+      <stop offset=".46" stop-color="#d94a23"/>
+      <stop offset=".58" stop-color="#d93d24"/>
+    </linearGradient>
+  </defs>
+  <g id="_彩色" data-name="彩色">
+    <g>
+      <path class="cls-1" d="M73.69,58.37l6.79-11.9c2.22,3.32,3.52,7.33,3.52,11.65,0,11.47-9.17,20.78-20.5,20.78s-20.49-9.31-20.49-20.78,9.17-20.78,20.49-20.78c4.84,0,9.29,1.68,12.78,4.53l-7.84,13.76c-.28.45-.44,1-.44,1.57,0,1.66,1.32,3,2.96,3,1.13,0,2.12-.64,2.59-1.58.05-.06.08-.11.1-.17.02-.02.03-.04.04-.08Z"/>
+      <path class="cls-2" d="M127,81.37c0,5.87-4.69,10.63-10.49,10.63-.22,0-.45-.01-.67-.02H9.93v-.05c-.13.01-.24.01-.36.01-5.28,0-9.57-4.33-9.57-9.68,0-2.11.67-4.06,1.81-5.64L41.96,6.1c.06-.11.13-.23.2-.34,2.01-3.44,5.86-5.75,10.28-5.75s7.96,2.15,10.03,5.36c.01.01.02.03.03.05l.61,1.09,13.3,23.36c-3.86-1.81-8.17-2.82-12.69-2.82-16.79,0-30.4,13.8-30.4,30.82s13.61,30.82,30.4,30.82,30.41-13.8,30.41-30.82c0-8.18-3.16-15.64-8.33-21.16l3.64-6.39.05-.09c.86-1.57,2.77-2.65,5-2.65s4.28,1.16,5.08,2.83l25.7,45.11.03.04c1.07,1.67,1.7,3.67,1.7,5.82Z"/>
+    </g>
+  </g>
+</svg>
