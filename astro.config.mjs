@@ -122,7 +122,7 @@ export default defineConfig({
 					link: './fb',
 				},
 				{
-					label: '贴别鸣谢',
+					label: '特别鸣谢',
 					link: './thanks',
 				},
 				{
