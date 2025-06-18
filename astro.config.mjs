@@ -83,11 +83,11 @@ export default defineConfig({
 			sidebar: [ // 配置网站的侧边栏导航项目
 				{
 					label: '首页',
-					link: './',
+					link: '/',
 				},
 				{
 					label: '下载',
-					link: './dl/rc',
+					link: '/dl/rc',
 				},
 				{
 					label: '帮助文档',
@@ -97,37 +97,37 @@ export default defineConfig({
 							label: "关于我们",
 							collapsed: true,
 							items: [
-								{label: '幕讯团队',link: './wiki/about',},
+								{label: '幕讯团队',link: '/wiki/about',},
 							],
 						},
 						{
 							label: "基础问题",
 							collapsed: true,
 							items: [
-								{label: '安装与卸载',link: './wiki/install_and_uninstall',},
+								{label: '安装与卸载',link: '/wiki/install_and_uninstall',},
 							],
 						},
 						{
 							label: "进阶问题",
 							collapsed: true,
 							items: [
-								{label: '软件问题',link: './wiki/software',},
-								{label: '硬件问题',link: './wiki/hardware',},
+								{label: '软件问题',link: '/wiki/software',},
+								{label: '硬件问题',link: '/wiki/hardware',},
 							],
 						},
 					],
 				},
 				{
 					label: '交流反馈',
-					link: './fb',
+					link: '/fb',
 				},
 				{
 					label: '特别鸣谢',
-					link: './thanks',
+					link: '/thanks',
 				},
 				{
 					label: '协议',
-					link: './privacy/latest',
+					link: '/privacy/latest',
 				},
 			],
 		}),
