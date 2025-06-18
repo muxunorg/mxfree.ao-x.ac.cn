@@ -1,8 +1,8 @@
 {
   "name": "mxfree-web",
   "type": "module",
-  "version": "2.0.1",
-  "description": "幕讯公益加速器",
+  "version": "2.0.2",
+  "description": "慕讯公益加速器",
   "git repository": "https://github.com/muxunorg/mxfree.ao-x.ac.cn",
   "scripts": {
     "dev": "astro dev",
