@@ -1,0 +1,31 @@
+{
+  "docsearch.searchBox.resetButtonTitle": "清除查询",
+  "docsearch.searchBox.resetButtonAriaLabel": "清除查询",
+  "docsearch.searchBox.cancelButtonText": "取消",
+  "docsearch.searchBox.cancelButtonAriaLabel": "取消",
+  "docsearch.searchBox.searchInputLabel": "搜索",
+
+  "docsearch.startScreen.recentSearchesTitle": "最近搜索",
+  "docsearch.startScreen.noRecentSearchesText": "暂无最近搜索",
+  "docsearch.startScreen.saveRecentSearchButtonTitle": "保存此搜索",
+  "docsearch.startScreen.removeRecentSearchButtonTitle": "从历史记录中移除此搜索",
+  "docsearch.startScreen.favoriteSearchesTitle": "常用搜索",
+  "docsearch.startScreen.removeFavoriteSearchButtonTitle": "从常用搜索中移除此项",
+
+  "docsearch.errorScreen.titleText": "无法获取结果",
+  "docsearch.errorScreen.helpText": "请检查您的网络连接。",
+
+  "docsearch.footer.selectText": "选择",
+  "docsearch.footer.selectKeyAriaLabel": "回车键",
+  "docsearch.footer.navigateText": "导航",
+  "docsearch.footer.navigateUpKeyAriaLabel": "上箭头键",
+  "docsearch.footer.navigateDownKeyAriaLabel": "下箭头键",
+  "docsearch.footer.closeText": "关闭",
+  "docsearch.footer.closeKeyAriaLabel": "Esc 键",
+  "docsearch.footer.searchByText": "技术支持",
+
+  "docsearch.noResultsScreen.noResultsText": "没有找到相关结果",
+  "docsearch.noResultsScreen.suggestedQueryText": "尝试搜索",
+  "docsearch.noResultsScreen.reportMissingResultsText": "认为此查询应返回结果？",
+  "docsearch.noResultsScreen.reportMissingResultsLinkText": "请告诉我们。"
+}

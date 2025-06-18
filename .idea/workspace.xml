@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9267582c-4676-49ce-87d4-7d80fc65f5f2" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.node-version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/astro.config.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pnpm-workspace.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/ao-x.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/content.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/content/docs/dl/beta.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/content/docs/dl/rc.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/content/docs/fb.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/content/docs/index.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/content/docs/privacy/20250518.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/content/docs/privacy/latest.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/content/docs/privacy/sdk.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/content/docs/thanks.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/content/docs/wiki/about.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/content/docs/wiki/hardware.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/content/docs/wiki/install_and_uninstall.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/content/i18n/zh-CN.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mxfree.ao-x.ac.cn.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/config/chi.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/config/eng.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/config/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/config/jpn.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/config/kor.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/config/rus.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/config/shared.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/config/zho.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chi/beta.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chi/donate.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chi/download.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chi/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chi/wiki/Chat with feedback.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chi/wiki/Hardware.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chi/wiki/Install and Uninstall.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chi/wiki/Software.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chi/wiki/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eng/beta.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eng/donate.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eng/download.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eng/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eng/wiki/Chat with feedback.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eng/wiki/Hardware.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eng/wiki/Install and Uninstall.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eng/wiki/Software.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eng/wiki/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpn/beta.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpn/donate.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpn/download.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpn/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpn/wiki/Chat with feedback.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpn/wiki/Hardware.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpn/wiki/Install and Uninstall.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpn/wiki/Software.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpn/wiki/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kor/beta.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kor/donate.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kor/download.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kor/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kor/wiki/Chat with feedback.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kor/wiki/Hardware.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kor/wiki/Install and Uninstall.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kor/wiki/Software.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kor/wiki/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/_redirects" beforeDir="false" afterPath="$PROJECT_DIR$/public/_redirects" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/baidu_verify_codeva-fZt7LzgPow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/client/adv/000.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/client/adv/001.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/client/adv/100.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/client/adv/101.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/client/adv/102.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/client/adv/103.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/client/home/home.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/Never again-avatar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/Never_again-avatar.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/alipay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/gzh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/logo.avif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/logo.jxl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/wxpay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/zs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/clarity.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/clarity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sitemaps.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sogousiteverification.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/urls.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rus/beta.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rus/donate.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rus/download.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rus/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rus/wiki/Chat with feedback.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rus/wiki/Hardware.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rus/wiki/Install and Uninstall.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rus/wiki/Software.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/docs/wiki/software.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rus/wiki/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zho/beta.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zho/donate.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zho/download.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zho/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zho/wiki/Chat with feedback.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zho/wiki/Hardware.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zho/wiki/Install and Uninstall.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zho/wiki/Software.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zho/wiki/index.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2yeBq8czBMKk8ZSVcLpGPSBKYIp" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Node.js.astro.config.mjs.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Feature/new&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mengwenbo/git/mxfree.ao-x.ac.cn/public&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/mengwenbo/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/content/docs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/src/content/docs" />
+      <recent name="$PROJECT_DIR$/src/content/docs/zh-CN" />
+      <recent name="$PROJECT_DIR$/src/content/docs/chi" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-WS-251.26094.131" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="9267582c-4676-49ce-87d4-7d80fc65f5f2" name="更改" comment="" />
+      <created>1750185346942</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750185346942</updated>
+      <workItem from="1750185348310" duration="19802000" />
+      <workItem from="1750206590899" duration="10776000" />
+      <workItem from="1750217824598" duration="12000" />
+      <workItem from="1750217862253" duration="12000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.mdx" />
+  </component>
+</project>
