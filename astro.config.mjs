@@ -10,7 +10,7 @@ export default defineConfig({
 	integrations: [
 		mermaid(),
 		starlight({
-			title: '幕讯公益加速器', // 设置网站标题
+			title: '慕讯公益加速器', // 设置网站标题
 			description: '免费加速器官方网站', // 设置网站描述
 			logo: { // 在导航栏中设置一个 logo 图片
 				light: './src/assets/logo.svg', // 导航栏中浅色模式 logo 图片
@@ -97,7 +97,7 @@ export default defineConfig({
 							label: "关于我们",
 							collapsed: true,
 							items: [
-								{label: '幕讯团队',link: '/wiki/about',},
+								{label: '慕讯团队',link: '/wiki/about',},
 							],
 						},
 						{
