@@ -72,7 +72,16 @@ export default defineConfig({
 						src: '/js/analytics.js',
 						async: true,
 					},
-				}
+				},
+				// Google AdSense 脚本
+				{
+					tag: 'script',
+					attrs: {
+						src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5482807185697054',
+						async: true,
+						crossorigin: 'anonymous',
+					},
+				},
 			],
 			lastUpdated: false, // 控制页脚是否显示页面上次更新的时间
 			pagination: false, // 定义页脚是否应包含上一页和下一页的链接
