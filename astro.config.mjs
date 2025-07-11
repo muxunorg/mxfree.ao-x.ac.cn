@@ -57,6 +57,16 @@ export default defineConfig({
 						async: true,
 					},
 				},
+				// Propeller Ads 脚本
+				{
+					tag: 'script',
+					attrs: {
+						src: 'https://fpyf8.com/88/tag.min.js',
+						'data-zone': '156825',
+						async: true,
+						'data-cfasync': false,
+					},
+				},
 				// Google Analytics 脚本
 				{
 					tag: 'script',

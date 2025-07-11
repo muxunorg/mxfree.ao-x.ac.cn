@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9267582c-4676-49ce-87d4-7d80fc65f5f2" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astro.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/astro.config.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/docs/privacy/20250518.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/docs/privacy/20250518.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/docs/privacy/sdk.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/docs/privacy/sdk.mdx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +70,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.start">
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -94,8 +93,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.dev" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
   </component>
@@ -126,6 +125,7 @@
       <workItem from="1750284232234" duration="429000" />
       <workItem from="1750379358824" duration="84000" />
       <workItem from="1750647868450" duration="55000" />
+      <workItem from="1752269239647" duration="952000" />
     </task>
     <servers />
   </component>
