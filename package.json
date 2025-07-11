@@ -12,7 +12,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/starlight": "^0.34.4",
+    "@astrojs/starlight": "^0.34.5",
     "@astrojs/starlight-docsearch": "^0.6.0",
     "@catppuccin/starlight": "^1.0.1",
     "astro": "^5.9.4",
