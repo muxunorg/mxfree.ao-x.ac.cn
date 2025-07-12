@@ -74,6 +74,12 @@ export default defineConfig({
 						'data-zone': '156825',
 						onerror: '_gtiwz()',
 						onload: '_cquyld()',
+				// Propeller Ads 脚本
+				{
+					tag: 'script',
+					attrs: {
+						src: 'https://fpyf8.com/88/tag.min.js',
+						'data-zone': '156825',
 						async: true,
 						'data-cfasync': false,
 					},
