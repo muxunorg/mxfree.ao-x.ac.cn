@@ -57,7 +57,7 @@ export default defineConfig({
 						async: true,
 					},
 				},
-				// Propeller Ads 脚本
+				/*/ Propeller Ads 脚本
 				{
 					tag: 'script',
 					attrs: {
@@ -66,7 +66,7 @@ export default defineConfig({
 						async: true,
 						'data-cfasync': false,
 					},
-				},
+				},*/
 				// Google Analytics 脚本
 				{
 					tag: 'script',
