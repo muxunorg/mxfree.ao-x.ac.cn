@@ -23,3 +23,6 @@ pnpm-debug.log*
 Yarn.lock
 pnpm-lock.yaml
 package-lock.json
+
+# IDE
+.idea/
