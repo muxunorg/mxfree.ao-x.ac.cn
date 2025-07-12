@@ -7,7 +7,6 @@
     <list default="true" id="9267582c-4676-49ce-87d4-7d80fc65f5f2" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/astro.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/astro.config.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -125,7 +125,9 @@
       <workItem from="1750284232234" duration="429000" />
       <workItem from="1750379358824" duration="84000" />
       <workItem from="1750647868450" duration="55000" />
-      <workItem from="1752269239647" duration="952000" />
+      <workItem from="1752269239647" duration="1235000" />
+      <workItem from="1752271630991" duration="3630000" />
+      <workItem from="1752352898144" duration="27000" />
     </task>
     <servers />
   </component>

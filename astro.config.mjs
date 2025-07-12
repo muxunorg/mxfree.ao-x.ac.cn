@@ -57,16 +57,35 @@ export default defineConfig({
 						async: true,
 					},
 				},
-				// Propeller Ads 脚本
-				{
+				// Propeller Ads 反广告脚本
+				/*{
 					tag: 'script',
 					attrs: {
-						src: 'https://fpyf8.com/88/tag.min.js',
-						'data-zone': '156825',
+						src: '/js/propeller_anti.js',
 						async: true,
 						'data-cfasync': false,
 					},
 				},
+				// Propeller Ads 通知广告脚本
+				{
+					tag: 'script',
+					attrs: {
+						src: '//couphaithuph.net/ntfc.php?p=9560212',
+						'data-zone': '156825',
+						onerror: '_gtiwz()',
+						onload: '_cquyld()',
+						async: true,
+						'data-cfasync': false,
+					},
+				},
+				// Propeller Ads 通知广告脚本
+				{
+					tag: 'script',
+					attrs: {
+						src: '/js/propeller_pungent.js',
+						async: true,
+					},
+				},*/
 				// Google Analytics 脚本
 				{
 					tag: 'script',
