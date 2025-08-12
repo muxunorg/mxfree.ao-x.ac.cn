@@ -1,0 +1,109 @@
+{
+  "redirects": [
+    {
+      "source": "/forme",
+      "destination": "/privacy/latest",
+      "statusCode": 301
+    },
+    {
+      "source": "/mx_service_agreement",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/privacy/latest",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/chi/donate",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/donate",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/chi/download",
+      "destination": "/dl/rc",
+      "statusCode": 301
+    },
+    {
+      "source": "/download",
+      "destination": "/dl/rc",
+      "statusCode": 301
+    },
+    {
+      "source": "/chi/beta",
+      "destination": "/dl/beta",
+      "statusCode": 301
+    },
+    {
+      "source": "/beta",
+      "destination": "/dl/beta",
+      "statusCode": 301
+    },
+    {
+      "source": "/chi",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/zho",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/eng",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/jpn",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/kor",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/rus",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/zh_CN",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/zh_TW",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en_US",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ja_JP",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ko_KR",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ru_RU",
+      "destination": "/",
+      "statusCode": 301
+    }
+  ]
+}
