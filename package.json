@@ -1,7 +1,7 @@
 {
   "name": "mxfree-web",
   "type": "module",
-  "version": "2.0.3",
+  "version": "2.1.0",
   "description": "慕讯公益加速器",
   "git repository": "https://github.com/muxunorg/mxfree.ao-x.ac.cn",
   "scripts": {
@@ -12,10 +12,10 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/starlight": "^0.34.5",
+    "@astrojs/starlight": "^0.35.2",
     "@astrojs/starlight-docsearch": "^0.6.0",
     "@catppuccin/starlight": "^1.0.1",
-    "astro": "^5.9.4",
+    "astro": "^5.12.9",
     "astro-mermaid": "^1.0.2",
     "mermaid": "^11.6.0",
     "sharp": "^0.34.2",
